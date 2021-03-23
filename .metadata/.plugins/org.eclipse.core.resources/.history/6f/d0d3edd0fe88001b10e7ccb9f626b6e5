@@ -1,0 +1,22 @@
+package com.bankapp.account.service.impl;
+
+public class CustomerValidations {
+	
+//	public static boolean isValidEmail(String email) {
+//		if (email != null && email.matches("[0-9a-zA-Z]//@[a-zA-z]//.['com']")) {
+//			return false;
+//		}else {
+//			return true;
+//		}
+//	}
+	
+	public static boolean isValidCustPassword(String password) {
+		if (password != null && password.matches("{8,15}")) {
+			return false;
+		} else {
+			return true;
+		}
+
+	}
+
+}

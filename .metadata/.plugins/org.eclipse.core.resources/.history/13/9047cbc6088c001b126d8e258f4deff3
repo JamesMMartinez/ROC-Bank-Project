@@ -1,0 +1,20 @@
+package com.bankapp.employee.service.impl;
+
+import com.bankapp.employee.dao.EmployeeDAO;
+import com.bankapp.employee.dao.impl.EmployeeDAOImpl;
+import com.bankapp.employee.model.Employee;
+import com.bankapp.employee.service.EmployeeService;
+import com.bankapp.exception.LoginException;
+
+public class EmployeeServiceImpl implements EmployeeService {
+	
+	private EmployeeDAO empDAO=new EmployeeDAOImpl();
+
+	@Override
+	public boolean empLogin(Employee employee) throws LoginException {
+		// TODO Auto-generated method stub
+		return empDAO.empLogin(employee); //handshake
+	}
+
+	
+}

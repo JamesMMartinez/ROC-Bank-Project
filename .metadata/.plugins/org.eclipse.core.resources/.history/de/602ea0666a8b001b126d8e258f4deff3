@@ -1,0 +1,16 @@
+package com.bankapp.account.dao;
+
+import java.util.List;
+
+import com.bankapp.account.model.Transaction;
+import com.bankapp.exception.BankException;
+
+public interface TransactionDAO {
+	
+	public int performTransaction(Transaction transaction) throws BankException; //Customer ready
+	public List<Transaction> listTransactionById(int accountid) throws BankException; //Employee ready
+	public List<Transaction> listTransactionByAccNum(int accountNumber) throws BankException; //Employee/Both? ready
+	public List<Transaction> listAllTransactions()throws BankException; //Employee ready
+	
+
+}

@@ -1,0 +1,21 @@
+package com.bankapp.employee.service.impl;
+
+public class EmployeeValidations {
+	
+	public static boolean isValidEmpID(int id) {
+		if (id < 1005 || id % 10 != 5) {
+			return false;
+		}else {
+			return true;
+		}
+	}
+	
+	public static boolean isValidEmpPassword(String password) {
+		if (password != null && password.matches("{8,15}")) {
+			return false;
+		} else {
+			return true;
+		}
+
+	}
+}

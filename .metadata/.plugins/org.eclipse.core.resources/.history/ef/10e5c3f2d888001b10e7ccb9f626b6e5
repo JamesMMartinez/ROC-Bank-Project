@@ -1,0 +1,16 @@
+package com.bankapp.account.service;
+
+import java.util.List;
+
+import com.bankapp.account.model.Transaction;
+import com.bankapp.exception.BankException;
+
+public interface TransactionService {
+	
+	public int performTransaction(Transaction transaction) throws BankException; //Customer
+	public List<Transaction> listTransactionById(int id) throws BankException; //Employee
+	public List<Transaction> listTransactionByAccNum(int accountNumber) throws BankException; //Employee/Both?
+	public List<Transaction> listMyTransactions() throws BankException; //Customer?
+	
+
+}

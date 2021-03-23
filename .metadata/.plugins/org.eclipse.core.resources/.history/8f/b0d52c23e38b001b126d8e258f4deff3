@@ -1,0 +1,181 @@
+package com.bankapp.transaction.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.account.model.Account;
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.exception.BankException;
+import com.bankapp.transaction.dao.TransactionDAO;
+import com.bankapp.transaction.model.Transaction;
+
+public class TransactionDAOImpl implements TransactionDAO{
+	
+	Logger log=Logger.getLogger(TransactionDAOImpl.class);
+
+	@Override
+	public int performWithdrawal(Transaction transaction) throws BankException {
+		int ar= 0;
+		Connection connection = null;
+		try {
+		    connection = PostgresConnection.getConnection();
+			String sql1 = "insert into bank_schema.transactions(accountnumber,type,amount) values(?,?,?)";
+			String sql2 = "update bank_schema.account set balance=balance - ? where accountnumber = ?";
+			connection.setAutoCommit(false);
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setInt(1, transaction.getAccountnumber());
+			preparedStatement.setString(2, "Withdrawal");
+			preparedStatement.setInt(3, transaction.getAmount());
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			
+			preparedStatement = connection.prepareStatement(sql2);
+			preparedStatement.setInt(1, transaction.getAmount());
+			preparedStatement.setInt(2, transaction.getAccountnumber());
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			connection.commit();
+		} catch (ClassNotFoundException | SQLException e) {
+			try {
+				log.warn(e);
+				connection.rollback();
+				log.debug("rollback success");
+			} catch (SQLException e1) {
+				log.debug("unable to rollback");
+			}
+			throw new BankException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return ar;
+	}
+	
+	@Override
+	public int performDeposit(Transaction transaction) throws BankException {
+		int ar= 0;
+		Connection connection = null;
+		try {
+		    connection = PostgresConnection.getConnection();
+			String sql1 = "insert into bank_schema.transactions(accountnumber,type,amount) values(?,?,?)";
+			String sql2 = "update bank_schema.account set balance=balance + ? where accountnumber = ?";
+			connection.setAutoCommit(false);
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setInt(1, transaction.getAccountnumber());
+			preparedStatement.setString(2, "Deposit");
+			preparedStatement.setInt(3, transaction.getAmount());
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			
+			preparedStatement = connection.prepareStatement(sql2);
+			preparedStatement.setInt(1, transaction.getAmount());
+			preparedStatement.setInt(2, transaction.getAccountnumber());
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			connection.commit();
+		} catch (ClassNotFoundException | SQLException e) {
+			try {
+				log.warn(e);
+				connection.rollback();
+				log.debug("rollback success");
+			} catch (SQLException e1) {
+				log.debug("unable to rollback");
+			}
+			throw new BankException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return ar;
+	}
+
+	@Override
+	public int performTransfer(Transaction transaction, int accountNumber2) throws BankException {
+		int ar= 0;
+		Connection connection = null;
+		try {
+		    connection = PostgresConnection.getConnection();
+			String sql1 = "insert into bank_schema.transactions(accountnumber,type,amount) values(?,?,?)";
+			String sql2 = "update bank_schema.account set balance=balance - ? where accountnumber = ?";
+			String sql3 = "update bank_schema.account set balance=balance + ? where accountnumber = ?";
+			connection.setAutoCommit(false);
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setInt(1, transaction.getAccountnumber());
+			preparedStatement.setString(2, "Transfer");
+			preparedStatement.setInt(3, transaction.getAmount());
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			
+			preparedStatement = connection.prepareStatement(sql2);
+			preparedStatement.setInt(1, transaction.getAmount());
+			preparedStatement.setInt(2, transaction.getAccountnumber());
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			
+			preparedStatement = connection.prepareStatement(sql3);
+			preparedStatement.setInt(1, transaction.getAmount());
+			preparedStatement.setInt(2, accountNumber2);
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			
+			connection.commit();
+		} catch (ClassNotFoundException | SQLException e) {
+			try {
+				log.warn(e);
+				connection.rollback();
+				log.debug("rollback success");
+			} catch (SQLException e1) {
+				log.debug("unable to rollback");
+			}
+			throw new BankException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return ar;
+	}
+
+	@Override
+	public List<Transaction> listTransactionById(int accountid) throws BankException {
+		List<Transaction> tranList = new ArrayList<>();
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "select * from bank_schema.transactions where a"; //do a join
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, accountId);
+			
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next()) {
+				Account account=new Account();
+				account.setAccountId(accountId);
+				account.setAccountNumber(resultSet.getInt("accountnumber"));
+				account.setAccountType(resultSet.getString("acctype"));
+				account.setStatus(resultSet.getString("status"));
+				account.setBalance(resultSet.getInt("balance"));
+				account.setAccountDate(resultSet.getDate("timestamp"));
+				account.setOwnerName(resultSet.getString("firstname")+ resultSet.getString("lastname"));
+				accountList.add(account);
+			}
+			if(accountList.size()==0) {
+				throw new BankException("There are currently no bank accounts open");
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BankException("internal error");
+		}
+		return accountList;
+	}
+
+	@Override
+	public List<Transaction> listTransactionByAccNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Transaction> listAllTransactions() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

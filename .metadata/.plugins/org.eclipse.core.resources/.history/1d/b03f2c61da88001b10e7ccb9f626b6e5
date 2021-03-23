@@ -1,0 +1,47 @@
+package com.bankapp.account.service.impl;
+
+import java.util.List;
+
+import com.bankapp.account.model.Account;
+import com.bankapp.account.service.AccountService;
+import com.bankapp.exception.BankException;
+
+public class AccountServiceImpl implements AccountService{
+
+	@Override
+	public int createNewBankAcc(Account account) throws BankException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Account> listMyAccounts(String email, String password) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listBankAccById(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account getBankAccByNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listAllAccounts() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> viewPendingAccounts(String status) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,14 @@
+package com.bankapp.account.service;
+
+import com.bankapp.account.model.Account;
+import com.bankapp.account.model.Customer;
+import com.bankapp.exception.BankException;
+import com.bankapp.exception.LoginException;
+
+public interface CustomerService {
+	
+	public int createNewCustAcc(Customer customer)throws LoginException;
+	public boolean custLogin(String email,String password)throws LoginException; //ready
+	public Customer getCustomerAccByid(int accountid)throws BankException; //Employee
+
+}

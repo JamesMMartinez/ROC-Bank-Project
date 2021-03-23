@@ -1,0 +1,102 @@
+package com.bankapp.account.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.account.dao.AccountDAO;
+import com.bankapp.account.model.Account;
+import com.bankapp.account.model.Customer;
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.exception.BankException;
+import com.bankapp.exception.LoginException;
+
+public class AccountDAOImpl implements AccountDAO {
+	
+	Logger log=Logger.getLogger(CustomerDAOImpl.class);
+
+	@Override
+	public int openNewBankAcc(Account account, int accountId) throws BankException {
+		int c = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "insert into bank_schema.account(acctype,accountid) values(?,?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, account.getAccountType());
+			preparedStatement.setInt(2,accountId);
+			c = preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// only at development not at production or live to know what exception
+			throw new BankException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return c;
+	}
+
+	@Override
+	public Account getBankAccByNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listMyAccounts(String email, String password) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listBankAccById(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listAllAccounts() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listAccountsByStatus(String status) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account updateBankAccount(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account closeBankAccount(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getIdByEmailPassword(String email, String password) throws BankException {
+		int accountId = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "select accountid from bank_schema.customer where email=? and password=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, email);
+			preparedStatement.setString(2, password);
+
+			ResultSet resultSet = preparedStatement.executeQuery();
+			while(resultSet.next()) {
+			accountId = resultSet.getInt("accountid");
+			}
+
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BankException("internal error");
+		}
+		
+		return accountId;
+	}
+
+}

@@ -1,0 +1,48 @@
+package com.bankapp.account.model;
+
+import java.sql.Date;
+
+public class Transaction {
+	
+	private String type;
+	private int amount;
+	private int transactionnumber;
+	private Date dateTime;
+	
+	
+	public Transaction(String type, int amount, int transactionnumber) {
+		super();
+		this.type = type;
+		this.amount = amount;
+		this.transactionnumber = transactionnumber;
+	}
+	
+	public String getType() {
+		return type;
+	}
+	public void setType(String type) {
+		this.type = type;
+	}
+	public int getAmount() {
+		return amount;
+	}
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+	public int getTransactionnumber() {
+		return transactionnumber;
+	}
+	public void setTransactionnumber(int transactionnumber) {
+		this.transactionnumber = transactionnumber;
+	}
+	@Override
+	public String toString() {
+		return "Transactions [type=" + type + ", amount=" + amount + ", transactionnumber=" + transactionnumber + "]";
+	}
+	
+	
+	
+	
+	
+
+}

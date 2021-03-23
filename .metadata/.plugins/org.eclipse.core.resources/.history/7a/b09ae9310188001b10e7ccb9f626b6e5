@@ -1,0 +1,5 @@
+package com.bankapp.employee.service;
+
+public interface EmployeeService {
+
+}

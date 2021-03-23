@@ -1,0 +1,10 @@
+package com.bankapp.employee.dao;
+
+import com.bankapp.employee.model.Employee;
+import com.bankapp.exception.LoginException;
+
+public interface EmployeeDAO {
+	
+	public boolean empLogin(Employee employee);
+
+}

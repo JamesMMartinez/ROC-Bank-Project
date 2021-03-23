@@ -1,0 +1,16 @@
+package com.bankapp.employee.service.impl;
+
+import com.bankapp.employee.model.Employee;
+import com.bankapp.employee.service.EmployeeService;
+import com.bankapp.exception.LoginException;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public int loginCheck() throws LoginException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	
+}

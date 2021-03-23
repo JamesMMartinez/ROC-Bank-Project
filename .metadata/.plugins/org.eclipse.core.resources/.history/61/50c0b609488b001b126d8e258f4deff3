@@ -1,0 +1,19 @@
+package com.bankapp.account.dao;
+
+import java.util.List;
+
+import com.bankapp.account.model.Account;
+import com.bankapp.exception.BankException;
+
+public interface AccountDAO {
+	
+	public int openNewBankAcc(Account account, int accountId)throws BankException; //Both? ready --> completed 
+	public Account getBankAccByNum(int accountNumber)throws BankException; //Employee ready --> completed
+	public List<Account> listBankAccById(int id)throws BankException; //Employee ready--> completed
+	public List<Account> listAllAccounts()throws BankException; //Employee ready --> completed
+	public List<Account> listAccountsByStatus(String status)throws BankException; //Employee ready -->completed
+	public Account updateBankAccount(int accountNumber, String status) throws BankException; //Employee ready
+	public Account closeBankAccount(int accountNumber) throws BankException; //Employee ready
+	public int getIdByEmailPassword(String email, String Password);//Customer behind the scenes-> completed(no validations)
+
+}

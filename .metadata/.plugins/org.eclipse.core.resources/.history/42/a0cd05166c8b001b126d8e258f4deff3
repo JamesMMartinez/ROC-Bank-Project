@@ -1,0 +1,39 @@
+package com.bankapp.transaction.service.impl;
+
+import java.util.List;
+
+import com.bankapp.account.dao.TransactionDAO;
+import com.bankapp.account.dao.impl.TransactionDAOImpl;
+import com.bankapp.account.model.Transaction;
+import com.bankapp.exception.BankException;
+import com.bankapp.transaction.service.TransactionService;
+
+public class TransactionServiceImpl implements TransactionService{
+	
+	private TransactionDAO transDAO = new TransactionDAOImpl();
+
+	@Override
+	public Transaction performTransaction(Transaction transaction) throws BankException {
+		// TODO Auto-generated method stub
+		return transDAO.performTransaction(transaction);
+	}
+
+	@Override
+	public List<Transaction> listTransactionById(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return transDAO.listTransactionById(id);
+	}
+
+	@Override
+	public List<Transaction> listTransactionByAccNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return transDAO.listTransactionByAccNum(accountNumber);
+	}
+
+	@Override
+	public List<Transaction> listAllTransactions() throws BankException {
+		// TODO Auto-generated method stub
+		return transDAO.listAllTransactions();
+	}
+
+}

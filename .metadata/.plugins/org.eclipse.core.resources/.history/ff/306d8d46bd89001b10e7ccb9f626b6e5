@@ -1,0 +1,10 @@
+package com.bankapp.account.dao;
+
+import com.bankapp.account.model.Customer;
+import com.bankapp.exception.LoginException;
+
+public interface CustomerDAO {
+	
+	public int createNewCustAcc(Customer customer) throws LoginException;
+	public boolean custLogin(String email, String password) throws LoginException;
+}

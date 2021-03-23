@@ -1,0 +1,78 @@
+package com.bankapp.transaction.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.account.dao.impl.CustomerDAOImpl;
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.exception.BankException;
+import com.bankapp.exception.LoginException;
+import com.bankapp.transaction.dao.TransactionDAO;
+import com.bankapp.transaction.model.Transaction;
+
+public class TransactionDAOImpl implements TransactionDAO{
+	
+	Logger log=Logger.getLogger(TransactionDAOImpl.class);
+
+	@Override
+	public int[] performWithdrawal(Transaction transaction) throws BankException {
+		int ar[];
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql1 = "insert into bank_schema.transaction(accountnumber,type,amount,timestamp) values(?,?,?,?)";
+			String sql2 = "update account set balance=balance + ? where accountnumber = ?";
+			connection.setAutoCommit(false);
+			
+			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setInt(1, transaction.getAccountnumber());
+			preparedStatement.setString(2, transaction.getType());
+			preparedStatement.setInt(3, transaction.getAmount());
+			preparedStatement.setTimestamp(5, transaction.getDateTime());
+			preparedStatement.addBatch();
+			
+			preparedStatement = connection.prepareStatement(sql2);
+			preparedStatement.setInt;
+			
+			c = preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// only at development not at production or live to know what exception
+			throw new BankException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return ar;
+	}
+	
+	@Override
+	public int performDeposit(Transaction transaction) throws BankException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int performTransfer(Transaction transaction) throws BankException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public List<Transaction> listTransactionById(int accountid) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Transaction> listTransactionByAccNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Transaction> listAllTransactions() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+}

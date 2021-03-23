@@ -1,0 +1,1659 @@
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 00:41:15
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 00:41:15
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 00:41:15
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 00:41:15
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 00:41:15
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 00:41:24
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 00:41:24
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 00:41:24
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 00:41:24
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 00:41:24
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 00:41:24
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 00:42:27
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 00:42:27
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 00:42:27
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 00:42:27
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 00:42:27
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 00:42:27
+{INFO} - [com.bankapp.main.Main] -     Thank you for banking with Marvel Bank!     Mar-18-21 Thursday EDT 00:42:33
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 01:03:05
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 01:03:05
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 01:03:05
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 01:03:05
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:03:05
+{INFO} - [com.bankapp.main.Main] -     Please only enter a number 1-3     Mar-18-21 Thursday EDT 01:03:08
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 01:03:08
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 01:03:08
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 01:03:08
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 01:03:08
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:03:08
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 01:03:10
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 01:03:10
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 01:03:10
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 01:03:10
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:03:10
+{INFO} - [com.bankapp.main.Main] -     Please enter a number 1-3 ONLY     Mar-18-21 Thursday EDT 01:03:19
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 01:03:19
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 01:03:19
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 01:03:19
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 01:03:19
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:03:19
+{INFO} - [com.bankapp.main.Main] -     Please enter a number 1-3 ONLY     Mar-18-21 Thursday EDT 01:03:31
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 01:03:31
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 01:03:31
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 01:03:31
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 01:03:31
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:03:31
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 01:04:28
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 01:04:28
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 01:04:28
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 01:04:28
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:04:28
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 01:04:42
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 01:04:42
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 01:04:42
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 01:04:42
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:04:42
+{INFO} - [com.bankapp.main.Main] -     Please enter your email address     Mar-18-21 Thursday EDT 01:04:53
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 01:04:53
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 01:04:53
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 01:04:53
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 01:04:53
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 01:04:53
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:04:53
+{INFO} - [com.bankapp.main.Main] -     Please provide your email address     Mar-18-21 Thursday EDT 01:04:58
+{INFO} - [com.bankapp.main.Main] -     Create your password     Mar-18-21 Thursday EDT 01:04:58
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 01:04:58
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 01:04:58
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 01:04:58
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 01:04:58
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:04:58
+{INFO} - [com.bankapp.main.Main] -     Exiting to main menu     Mar-18-21 Thursday EDT 01:05:02
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 01:05:02
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 01:05:02
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 01:05:02
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 01:05:02
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 01:05:02
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 16:03:40
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 16:03:40
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 16:03:40
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 16:03:40
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 16:03:40
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 17:54:15
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 17:54:15
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 17:54:15
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 17:54:15
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 17:54:15
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 17:54:18
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 17:54:18
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 17:54:30
+{INFO} - [com.bankapp.main.Main] -     false     Mar-18-21 Thursday EDT 17:54:36
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 17:54:36
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 17:54:36
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 17:54:36
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 17:54:36
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 17:54:36
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 17:54:52
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 17:54:52
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 17:55:24
+{INFO} - [com.bankapp.main.Main] -     true     Mar-18-21 Thursday EDT 17:55:28
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 17:55:28
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 17:55:28
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 17:55:28
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 17:55:28
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 17:55:28
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 17:55:45
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 17:55:45
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 17:56:40
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 17:56:40
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 17:56:40
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 17:56:40
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 17:56:40
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 17:56:48
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 17:56:48
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 17:57:01
+{INFO} - [com.bankapp.main.Main] -     true     Mar-18-21 Thursday EDT 17:57:08
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 17:57:08
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 17:57:08
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 17:57:08
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 17:57:08
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 17:57:08
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 17:57:15
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 17:57:15
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 17:57:21
+{INFO} - [com.bankapp.main.Main] -     false     Mar-18-21 Thursday EDT 17:57:27
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 17:57:27
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 17:57:27
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 17:57:27
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 17:57:27
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 17:57:27
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 19:29:51
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 19:29:51
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 19:29:51
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 19:29:51
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 19:29:51
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 19:30:00
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 19:30:00
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 19:30:19
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-18-21 Thursday EDT 19:30:24
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 19:30:24
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 19:30:24
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 19:30:24
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 19:30:24
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 19:30:24
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 19:30:56
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 19:30:56
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 19:30:56
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 19:30:56
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 19:30:56
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 19:30:59
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 19:30:59
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 19:31:04
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-18-21 Thursday EDT 19:31:07
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 19:31:07
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 19:31:07
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 19:31:07
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 19:31:07
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 19:31:07
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 19:31:10
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 19:31:10
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 19:31:14
+{INFO} - [com.bankapp.main.Main] -     The ID and password did not match please try again     Mar-18-21 Thursday EDT 19:31:26
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 19:31:26
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 19:32:50
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 19:32:50
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 19:32:50
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 19:32:50
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 19:32:50
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-18-21 Thursday EDT 19:32:52
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 19:32:52
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 19:32:55
+{INFO} - [com.bankapp.main.Main] -     The ID and password did not match please try again     Mar-18-21 Thursday EDT 19:32:59
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-18-21 Thursday EDT 19:32:59
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 19:33:03
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-18-21 Thursday EDT 19:33:06
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 19:33:06
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 19:33:06
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 19:33:06
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 19:33:06
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 19:33:06
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 22:25:48
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 22:25:48
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 22:25:48
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 22:25:48
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:25:48
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 22:25:59
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 22:25:59
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 22:25:59
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 22:25:59
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:25:59
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-18-21 Thursday EDT 22:26:05
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 22:26:30
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-18-21 Thursday EDT 22:27:02
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 22:27:02
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 22:27:02
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 22:27:02
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 22:27:02
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:27:02
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 22:27:15
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 22:27:15
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 22:27:15
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 22:27:15
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:27:15
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 22:27:44
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 22:27:44
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 22:27:44
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 22:27:44
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:27:44
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-18-21 Thursday EDT 22:27:45
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 22:27:50
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-18-21 Thursday EDT 22:27:55
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 22:27:55
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 22:27:55
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 22:27:55
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 22:27:55
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:27:55
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-18-21 Thursday EDT 22:29:05
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-18-21 Thursday EDT 22:29:05
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-18-21 Thursday EDT 22:29:05
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-18-21 Thursday EDT 22:29:05
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:29:05
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 22:29:12
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 22:29:12
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 22:29:12
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 22:29:12
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:29:12
+{INFO} - [com.bankapp.main.Main] -     Please enter a number 1-3 ONLY     Mar-18-21 Thursday EDT 22:29:20
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-18-21 Thursday EDT 22:29:20
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-18-21 Thursday EDT 22:29:20
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-18-21 Thursday EDT 22:29:20
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-18-21 Thursday EDT 22:29:20
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-18-21 Thursday EDT 22:29:20
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-18-21 Thursday EDT 22:29:26
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-18-21 Thursday EDT 22:29:31
+{INFO} - [com.bankapp.main.Main] -     The email and password did not match please try again     Mar-18-21 Thursday EDT 22:29:34
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-18-21 Thursday EDT 22:29:34
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 10:42:03
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 10:42:03
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 10:42:03
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 10:42:03
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:42:03
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-19-21 Friday EDT 10:42:10
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-19-21 Friday EDT 10:42:10
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-19-21 Friday EDT 10:42:10
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-19-21 Friday EDT 10:42:10
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:42:10
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-19-21 Friday EDT 10:42:13
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 10:42:23
+{INFO} - [com.bankapp.main.Main] -     The email and password did not match please try again     Mar-19-21 Friday EDT 10:42:27
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-19-21 Friday EDT 10:42:27
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 10:44:01
+{INFO} - [com.bankapp.main.Main] -     The email and password did not match please try again     Mar-19-21 Friday EDT 10:44:06
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-19-21 Friday EDT 10:44:06
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 10:46:25
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 10:46:25
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 10:46:25
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 10:46:25
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:46:25
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-19-21 Friday EDT 10:46:31
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-19-21 Friday EDT 10:46:31
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-19-21 Friday EDT 10:46:31
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-19-21 Friday EDT 10:46:31
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:46:31
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-19-21 Friday EDT 10:46:36
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 10:46:46
+{INFO} - [com.bankapp.main.Main] -     The email and password did not match please try again     Mar-19-21 Friday EDT 10:46:57
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-19-21 Friday EDT 10:46:57
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 10:48:36
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 10:48:36
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 10:48:36
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 10:48:36
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:48:36
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-19-21 Friday EDT 10:48:40
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-19-21 Friday EDT 10:48:40
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 10:48:55
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 10:48:59
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 10:48:59
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 10:48:59
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 10:48:59
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 10:48:59
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:48:59
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 10:50:41
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 10:50:41
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 10:50:41
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 10:50:41
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:50:41
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-19-21 Friday EDT 10:50:44
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-19-21 Friday EDT 10:50:44
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-19-21 Friday EDT 10:50:44
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-19-21 Friday EDT 10:50:44
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 10:50:44
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-19-21 Friday EDT 10:50:47
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 10:50:55
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 10:51:00
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-19-21 Friday EDT 10:51:00
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-19-21 Friday EDT 10:51:00
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-19-21 Friday EDT 10:51:00
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-19-21 Friday EDT 10:51:00
+{INFO} - [com.bankapp.main.Main] -     5) Log out     Mar-19-21 Friday EDT 10:51:00
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 13:43:06
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 13:43:06
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 13:43:06
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 13:43:06
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 13:43:06
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-19-21 Friday EDT 13:43:11
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-19-21 Friday EDT 13:43:11
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-19-21 Friday EDT 13:43:11
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-19-21 Friday EDT 13:43:11
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 13:43:11
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-19-21 Friday EDT 13:43:14
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 13:43:30
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:43:35
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-19-21 Friday EDT 13:43:35
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-19-21 Friday EDT 13:43:35
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-19-21 Friday EDT 13:43:35
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-19-21 Friday EDT 13:43:35
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-19-21 Friday EDT 13:43:35
+{INFO} - [com.bankapp.main.Main] -     Displaying your accounts     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     Choose an account for more actions     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     5) Exit     Mar-19-21 Friday EDT 13:43:41
+{INFO} - [com.bankapp.main.Main] -     Withdrawal Transaction     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     5) Exit     Mar-19-21 Friday EDT 13:43:46
+{INFO} - [com.bankapp.main.Main] -     Deposit Transaction     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     5) Exit     Mar-19-21 Friday EDT 13:43:51
+{INFO} - [com.bankapp.main.Main] -     Tranfer Transaction     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     5) Exit     Mar-19-21 Friday EDT 13:43:55
+{INFO} - [com.bankapp.main.Main] -     Transaction History     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     5) Exit     Mar-19-21 Friday EDT 13:43:57
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-19-21 Friday EDT 13:44:00
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-19-21 Friday EDT 13:44:00
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-19-21 Friday EDT 13:44:00
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-19-21 Friday EDT 13:44:00
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-19-21 Friday EDT 13:44:00
+{INFO} - [com.bankapp.main.Main] -     Displaying your accounts     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     Choose an account for more actions     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     5) Exit     Mar-19-21 Friday EDT 13:45:01
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-19-21 Friday EDT 13:45:26
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-19-21 Friday EDT 13:45:26
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-19-21 Friday EDT 13:45:26
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-19-21 Friday EDT 13:45:26
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-19-21 Friday EDT 13:45:26
+{INFO} - [com.bankapp.main.Main] -     This is for creating a NEW BANK account     Mar-19-21 Friday EDT 13:45:29
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-19-21 Friday EDT 13:45:29
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-19-21 Friday EDT 13:45:29
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-19-21 Friday EDT 13:45:29
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-19-21 Friday EDT 13:45:29
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-19-21 Friday EDT 13:45:29
+{INFO} - [com.bankapp.main.Main] -     Thank you for banking with Marvel Bank!     Mar-19-21 Friday EDT 13:45:34
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-19-21 Friday EDT 13:45:34
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-19-21 Friday EDT 13:45:34
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-19-21 Friday EDT 13:45:34
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-19-21 Friday EDT 13:45:34
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 13:45:34
+{INFO} - [com.bankapp.main.Main] -     Exiting to main menu     Mar-19-21 Friday EDT 13:45:52
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 13:45:52
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 13:45:52
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 13:45:52
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 13:45:52
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 13:45:52
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-19-21 Friday EDT 13:45:56
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-19-21 Friday EDT 13:45:56
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 13:46:01
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:46:04
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-19-21 Friday EDT 13:46:04
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-19-21 Friday EDT 13:46:04
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-19-21 Friday EDT 13:46:04
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-19-21 Friday EDT 13:46:04
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-19-21 Friday EDT 13:46:09
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:46:09
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-19-21 Friday EDT 13:46:09
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-19-21 Friday EDT 13:46:09
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-19-21 Friday EDT 13:46:09
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-19-21 Friday EDT 13:46:09
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:46:09
+{INFO} - [com.bankapp.main.Main] -     Only choose between options 1-5     Mar-19-21 Friday EDT 13:46:14
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:46:14
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-19-21 Friday EDT 13:46:14
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-19-21 Friday EDT 13:46:14
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-19-21 Friday EDT 13:46:14
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-19-21 Friday EDT 13:46:14
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:46:14
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 13:47:04
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 13:47:04
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 13:47:04
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 13:47:04
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 13:47:04
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-19-21 Friday EDT 13:47:06
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-19-21 Friday EDT 13:47:06
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-19-21 Friday EDT 13:47:09
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:12
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-19-21 Friday EDT 13:47:12
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-19-21 Friday EDT 13:47:12
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-19-21 Friday EDT 13:47:12
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-19-21 Friday EDT 13:47:12
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-19-21 Friday EDT 13:47:14
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:14
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-19-21 Friday EDT 13:47:14
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-19-21 Friday EDT 13:47:14
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-19-21 Friday EDT 13:47:14
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-19-21 Friday EDT 13:47:14
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:14
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by id     Mar-19-21 Friday EDT 13:47:18
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:18
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-19-21 Friday EDT 13:47:18
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-19-21 Friday EDT 13:47:18
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-19-21 Friday EDT 13:47:18
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-19-21 Friday EDT 13:47:18
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:18
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by lastname     Mar-19-21 Friday EDT 13:47:23
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:23
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-19-21 Friday EDT 13:47:23
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-19-21 Friday EDT 13:47:23
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-19-21 Friday EDT 13:47:23
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-19-21 Friday EDT 13:47:23
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:23
+{INFO} - [com.bankapp.main.Main] -     This is to list allcustomer accounts     Mar-19-21 Friday EDT 13:47:24
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:24
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-19-21 Friday EDT 13:47:24
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-19-21 Friday EDT 13:47:24
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-19-21 Friday EDT 13:47:24
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-19-21 Friday EDT 13:47:24
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:24
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-19-21 Friday EDT 13:47:32
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:32
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-19-21 Friday EDT 13:47:32
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-19-21 Friday EDT 13:47:32
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-19-21 Friday EDT 13:47:32
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-19-21 Friday EDT 13:47:32
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:32
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:35
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-19-21 Friday EDT 13:47:35
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-19-21 Friday EDT 13:47:35
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-19-21 Friday EDT 13:47:35
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-19-21 Friday EDT 13:47:35
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer BANK accounts     Mar-19-21 Friday EDT 13:47:38
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:38
+{INFO} - [com.bankapp.main.Main] -     1) Get Bank Accounts by Account Number     Mar-19-21 Friday EDT 13:47:38
+{INFO} - [com.bankapp.main.Main] -     2) List Bank Accounts by ID     Mar-19-21 Friday EDT 13:47:38
+{INFO} - [com.bankapp.main.Main] -     3) List All Bank Accounts     Mar-19-21 Friday EDT 13:47:38
+{INFO} - [com.bankapp.main.Main] -     4) Manage Accounts by status     Mar-19-21 Friday EDT 13:47:38
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:38
+{INFO} - [com.bankapp.main.Main] -     This is to find bank account by accnumber     Mar-19-21 Friday EDT 13:47:45
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:45
+{INFO} - [com.bankapp.main.Main] -     1) Get Bank Accounts by Account Number     Mar-19-21 Friday EDT 13:47:45
+{INFO} - [com.bankapp.main.Main] -     2) List Bank Accounts by ID     Mar-19-21 Friday EDT 13:47:45
+{INFO} - [com.bankapp.main.Main] -     3) List All Bank Accounts     Mar-19-21 Friday EDT 13:47:45
+{INFO} - [com.bankapp.main.Main] -     4) Manage Accounts by status     Mar-19-21 Friday EDT 13:47:45
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:45
+{INFO} - [com.bankapp.main.Main] -     This is to list accounts by accID     Mar-19-21 Friday EDT 13:47:49
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:49
+{INFO} - [com.bankapp.main.Main] -     1) Get Bank Accounts by Account Number     Mar-19-21 Friday EDT 13:47:49
+{INFO} - [com.bankapp.main.Main] -     2) List Bank Accounts by ID     Mar-19-21 Friday EDT 13:47:49
+{INFO} - [com.bankapp.main.Main] -     3) List All Bank Accounts     Mar-19-21 Friday EDT 13:47:49
+{INFO} - [com.bankapp.main.Main] -     4) Manage Accounts by status     Mar-19-21 Friday EDT 13:47:49
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:49
+{INFO} - [com.bankapp.main.Main] -     This is to list all bank accounts     Mar-19-21 Friday EDT 13:47:51
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:51
+{INFO} - [com.bankapp.main.Main] -     1) Get Bank Accounts by Account Number     Mar-19-21 Friday EDT 13:47:51
+{INFO} - [com.bankapp.main.Main] -     2) List Bank Accounts by ID     Mar-19-21 Friday EDT 13:47:51
+{INFO} - [com.bankapp.main.Main] -     3) List All Bank Accounts     Mar-19-21 Friday EDT 13:47:51
+{INFO} - [com.bankapp.main.Main] -     4) Manage Accounts by status     Mar-19-21 Friday EDT 13:47:51
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:51
+{INFO} - [com.bankapp.main.Main] -     This is to manage accounts by status     Mar-19-21 Friday EDT 13:47:56
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:56
+{INFO} - [com.bankapp.main.Main] -     1) Get Bank Accounts by Account Number     Mar-19-21 Friday EDT 13:47:56
+{INFO} - [com.bankapp.main.Main] -     2) List Bank Accounts by ID     Mar-19-21 Friday EDT 13:47:56
+{INFO} - [com.bankapp.main.Main] -     3) List All Bank Accounts     Mar-19-21 Friday EDT 13:47:56
+{INFO} - [com.bankapp.main.Main] -     4) Manage Accounts by status     Mar-19-21 Friday EDT 13:47:56
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-19-21 Friday EDT 13:47:56
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:47:58
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-19-21 Friday EDT 13:47:58
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-19-21 Friday EDT 13:47:58
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-19-21 Friday EDT 13:47:58
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-19-21 Friday EDT 13:47:58
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-19-21 Friday EDT 13:48:01
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:48:01
+{INFO} - [com.bankapp.main.Main] -     1) List Transactions by Acccount Number     Mar-19-21 Friday EDT 13:48:01
+{INFO} - [com.bankapp.main.Main] -     2) List Transactions by Account ID     Mar-19-21 Friday EDT 13:48:01
+{INFO} - [com.bankapp.main.Main] -     3) List All Transactions     Mar-19-21 Friday EDT 13:48:01
+{INFO} - [com.bankapp.main.Main] -     4) Return     Mar-19-21 Friday EDT 13:48:01
+{INFO} - [com.bankapp.main.Main] -     This is to list Transactions by Account Number     Mar-19-21 Friday EDT 13:48:04
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:48:04
+{INFO} - [com.bankapp.main.Main] -     1) List Transactions by Acccount Number     Mar-19-21 Friday EDT 13:48:04
+{INFO} - [com.bankapp.main.Main] -     2) List Transactions by Account ID     Mar-19-21 Friday EDT 13:48:04
+{INFO} - [com.bankapp.main.Main] -     3) List All Transactions     Mar-19-21 Friday EDT 13:48:04
+{INFO} - [com.bankapp.main.Main] -     4) Return     Mar-19-21 Friday EDT 13:48:04
+{INFO} - [com.bankapp.main.Main] -     This is to list Transactions by accID     Mar-19-21 Friday EDT 13:48:07
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:48:07
+{INFO} - [com.bankapp.main.Main] -     1) List Transactions by Acccount Number     Mar-19-21 Friday EDT 13:48:07
+{INFO} - [com.bankapp.main.Main] -     2) List Transactions by Account ID     Mar-19-21 Friday EDT 13:48:07
+{INFO} - [com.bankapp.main.Main] -     3) List All Transactions     Mar-19-21 Friday EDT 13:48:07
+{INFO} - [com.bankapp.main.Main] -     4) Return     Mar-19-21 Friday EDT 13:48:07
+{INFO} - [com.bankapp.main.Main] -     This is to list all bank transactions     Mar-19-21 Friday EDT 13:48:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:48:10
+{INFO} - [com.bankapp.main.Main] -     1) List Transactions by Acccount Number     Mar-19-21 Friday EDT 13:48:10
+{INFO} - [com.bankapp.main.Main] -     2) List Transactions by Account ID     Mar-19-21 Friday EDT 13:48:10
+{INFO} - [com.bankapp.main.Main] -     3) List All Transactions     Mar-19-21 Friday EDT 13:48:10
+{INFO} - [com.bankapp.main.Main] -     4) Return     Mar-19-21 Friday EDT 13:48:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-19-21 Friday EDT 13:48:13
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-19-21 Friday EDT 13:48:13
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-19-21 Friday EDT 13:48:13
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-19-21 Friday EDT 13:48:13
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-19-21 Friday EDT 13:48:13
+{INFO} - [com.bankapp.main.Main] -     Thank you for being heroic today!     Mar-19-21 Friday EDT 13:48:15
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-19-21 Friday EDT 13:48:15
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-19-21 Friday EDT 13:48:15
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-19-21 Friday EDT 13:48:15
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-19-21 Friday EDT 13:48:15
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-19-21 Friday EDT 13:48:15
+{INFO} - [com.bankapp.main.Main] -     Thank you for banking with Marvel Bank!     Mar-19-21 Friday EDT 13:48:19
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-20-21 Saturday EDT 18:31:18
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-20-21 Saturday EDT 18:31:18
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-20-21 Saturday EDT 18:31:18
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-20-21 Saturday EDT 18:31:18
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-20-21 Saturday EDT 18:31:18
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-20-21 Saturday EDT 18:31:21
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-20-21 Saturday EDT 18:31:21
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-20-21 Saturday EDT 18:31:21
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-20-21 Saturday EDT 18:31:21
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-20-21 Saturday EDT 18:31:21
+{INFO} - [com.bankapp.main.Main] -     This is for creating new CUSTOMER ACCOUNT     Mar-20-21 Saturday EDT 18:31:24
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-20-21 Saturday EDT 18:31:24
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-20-21 Saturday EDT 18:32:21
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-20-21 Saturday EDT 18:32:30
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-20-21 Saturday EDT 18:33:46
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-20-21 Saturday EDT 18:34:45
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-20-21 Saturday EDT 18:37:14
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-20-21 Saturday EDT 18:38:17
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-20-21 Saturday EDT 18:38:17
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-20-21 Saturday EDT 18:38:17
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-20-21 Saturday EDT 18:38:17
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-20-21 Saturday EDT 18:38:17
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-20-21 Saturday EDT 19:27:20
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-20-21 Saturday EDT 19:27:20
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-20-21 Saturday EDT 19:27:20
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-20-21 Saturday EDT 19:27:20
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-20-21 Saturday EDT 19:27:20
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-20-21 Saturday EDT 19:27:23
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-20-21 Saturday EDT 19:27:23
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-20-21 Saturday EDT 19:27:35
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-20-21 Saturday EDT 19:27:41
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-20-21 Saturday EDT 19:27:41
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-20-21 Saturday EDT 19:27:41
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-20-21 Saturday EDT 19:27:41
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-20-21 Saturday EDT 19:27:41
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-20-21 Saturday EDT 19:27:45
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by ID     Mar-20-21 Saturday EDT 19:27:57
+{INFO} - [com.bankapp.main.Main] -     please enter the account ID of the customer you are looking for     Mar-20-21 Saturday EDT 19:27:57
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Thor, lastName=Odinson, address=Asgard, number=123-456-7890, email=godofthunder@hotmail.com, password=mypassword1, accountid=110]     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-20-21 Saturday EDT 19:28:10
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-20-21 Saturday EDT 23:56:48
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-20-21 Saturday EDT 23:56:48
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-20-21 Saturday EDT 23:56:48
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-20-21 Saturday EDT 23:56:48
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-20-21 Saturday EDT 23:56:48
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-20-21 Saturday EDT 23:57:07
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-20-21 Saturday EDT 23:57:07
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-20-21 Saturday EDT 23:57:07
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-20-21 Saturday EDT 23:57:07
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-20-21 Saturday EDT 23:57:07
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-20-21 Saturday EDT 23:57:19
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-20-21 Saturday EDT 23:57:43
+{INFO} - [com.bankapp.main.Main] -     The email and password did not match please try again     Mar-20-21 Saturday EDT 23:57:50
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-20-21 Saturday EDT 23:57:50
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-20-21 Saturday EDT 23:58:12
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-20-21 Saturday EDT 23:58:19
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-20-21 Saturday EDT 23:58:19
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-20-21 Saturday EDT 23:58:19
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-20-21 Saturday EDT 23:58:19
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-20-21 Saturday EDT 23:58:19
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-20-21 Saturday EDT 23:58:19
+{INFO} - [com.bankapp.main.Main] -     Displaying your accounts     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     Choose an account for more actions     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-20-21 Saturday EDT 23:58:37
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 17:43:42
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 17:43:42
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 17:43:42
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 17:43:42
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 17:43:42
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 17:43:57
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 17:43:57
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 17:44:02
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:44:05
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 17:44:05
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 17:44:05
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 17:44:05
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 17:44:05
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:44:10
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-21-21 Sunday EDT 17:44:25
+{INFO} - [com.bankapp.main.Main] -     Please provide the account ID of the cutomer account your would like to update     Mar-21-21 Sunday EDT 17:44:25
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=null, lastName=null, address=null, number=null, email=null, password=null, accountid=0]     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     What would you like to update     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     1) Firstname     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     2) Lastname     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     3) Address     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     4) Number     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     5) Email     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     6) Password     Mar-21-21 Sunday EDT 17:44:44
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 17:45:53
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 17:45:53
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 17:45:53
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 17:45:53
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 17:45:53
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 17:45:57
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 17:45:57
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 17:46:00
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:46:04
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 17:46:04
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 17:46:04
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 17:46:04
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 17:46:04
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:46:07
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by ID     Mar-21-21 Sunday EDT 17:46:11
+{INFO} - [com.bankapp.main.Main] -     please enter the account ID of the customer you are looking for     Mar-21-21 Sunday EDT 17:46:11
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=James Logan, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:46:16
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 17:46:54
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 17:46:54
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 17:46:54
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 17:46:54
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 17:46:54
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 17:46:58
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 17:46:58
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 17:47:03
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:47:06
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 17:47:06
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 17:47:06
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 17:47:06
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 17:47:06
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:47:09
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-21-21 Sunday EDT 17:47:16
+{INFO} - [com.bankapp.main.Main] -     Please provide the account ID of the customer account your would like to update     Mar-21-21 Sunday EDT 17:47:16
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=null, lastName=null, address=null, number=null, email=null, password=null, accountid=0]     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     What would you like to update     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     1) Firstname     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     2) Lastname     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     3) Address     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     4) Number     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     5) Email     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     6) Password     Mar-21-21 Sunday EDT 17:47:24
+{INFO} - [com.bankapp.main.Main] -     please enter the updated information     Mar-21-21 Sunday EDT 17:48:01
+{WARN} - [com.bankapp.account.dao.impl.CustomerDAOImpl] -     org.postgresql.util.PSQLException: ERROR: relation "customer" does not exist
+  Position: 8     Mar-21-21 Sunday EDT 17:48:23
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Internal error occured please contact SYSADMIN     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     The updated customer account is displayed below:      Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=null, lastName=null, address=null, number=null, email=null, password=null, accountid=0]     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:48:23
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 17:49:57
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 17:49:57
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 17:49:57
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 17:49:57
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 17:49:57
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 17:50:00
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 17:50:00
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 17:50:02
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:50:05
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 17:50:05
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 17:50:05
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 17:50:05
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 17:50:05
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:50:08
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-21-21 Sunday EDT 17:50:14
+{INFO} - [com.bankapp.main.Main] -     Please provide the account ID of the customer account your would like to update     Mar-21-21 Sunday EDT 17:50:14
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=null, lastName=null, address=null, number=null, email=null, password=null, accountid=0]     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     What would you like to update     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     1) Firstname     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     2) Lastname     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     3) Address     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     4) Number     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     5) Email     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     6) Password     Mar-21-21 Sunday EDT 17:50:18
+{INFO} - [com.bankapp.main.Main] -     please enter the updated information     Mar-21-21 Sunday EDT 17:50:21
+{INFO} - [com.bankapp.main.Main] -     The updated customer account is displayed below:      Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=null, lastName=null, address=null, number=null, email=null, password=null, accountid=0]     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:50:28
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 17:51:46
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 17:51:46
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 17:51:46
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 17:51:46
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 17:51:46
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 17:51:50
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 17:51:50
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 17:51:52
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:51:55
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 17:51:55
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 17:51:55
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 17:51:55
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 17:51:55
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:51:58
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-21-21 Sunday EDT 17:52:30
+{INFO} - [com.bankapp.main.Main] -     Please provide the account ID of the customer account your would like to update     Mar-21-21 Sunday EDT 17:52:30
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Logan James, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     What would you like to update     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     1) Firstname     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     2) Lastname     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     3) Address     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     4) Number     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     5) Email     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     6) Password     Mar-21-21 Sunday EDT 17:52:33
+{INFO} - [com.bankapp.main.Main] -     please enter the updated information     Mar-21-21 Sunday EDT 17:52:43
+{INFO} - [com.bankapp.main.Main] -     The updated customer account is displayed below:      Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=James Logan, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 17:52:50
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 18:40:53
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 18:40:53
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 18:40:53
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 18:40:53
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 18:40:53
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 18:40:57
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 18:40:57
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 18:40:58
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:41:01
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 18:41:01
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 18:41:01
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 18:41:01
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 18:41:01
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 18:41:52
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-21-21 Sunday EDT 18:41:55
+{INFO} - [com.bankapp.main.Main] -     Please provide the account ID of the customer account your would like to update     Mar-21-21 Sunday EDT 18:41:55
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=James Logan, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     What would you like to update     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     1) Firstname     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     2) Lastname     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     3) Address     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     4) Number     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     5) Email     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     6) Password     Mar-21-21 Sunday EDT 18:41:58
+{INFO} - [com.bankapp.main.Main] -     please enter the updated information     Mar-21-21 Sunday EDT 18:42:03
+{WARN} - [com.bankapp.account.dao.impl.CustomerDAOImpl] -     org.postgresql.util.PSQLException: The column index is out of range: 6, number of columns: 2.     Mar-21-21 Sunday EDT 18:42:09
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Internal error occured please contact SYSADMIN     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     The updated customer account is displayed below:      Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=James Logan, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 18:42:09
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 18:42:38
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 18:42:38
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 18:42:38
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 18:42:38
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 18:42:38
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 18:42:41
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 18:42:41
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 18:42:43
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:42:47
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 18:42:47
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 18:42:47
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 18:42:47
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 18:42:47
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 18:42:50
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-21-21 Sunday EDT 18:42:53
+{INFO} - [com.bankapp.main.Main] -     Please provide the account ID of the customer account your would like to update     Mar-21-21 Sunday EDT 18:42:53
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=James Logan, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     What would you like to update     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     1) Firstname     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     2) Lastname     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     3) Address     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     4) Number     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     5) Email     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     6) Password     Mar-21-21 Sunday EDT 18:42:57
+{INFO} - [com.bankapp.main.Main] -     please enter the updated information     Mar-21-21 Sunday EDT 18:43:06
+{WARN} - [com.bankapp.account.dao.impl.CustomerDAOImpl] -     org.postgresql.util.PSQLException: The column index is out of range: 6, number of columns: 2.     Mar-21-21 Sunday EDT 18:43:14
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Internal error occured please contact SYSADMIN     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     The updated customer account is displayed below:      Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=James Logan, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 18:43:14
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 18:43:59
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 18:43:59
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 18:43:59
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 18:43:59
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 18:43:59
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 18:44:01
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 18:44:01
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 18:44:03
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:44:06
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 18:44:06
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 18:44:06
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 18:44:06
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 18:44:06
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 18:44:08
+{INFO} - [com.bankapp.main.Main] -     This is to update a customer account     Mar-21-21 Sunday EDT 18:44:17
+{INFO} - [com.bankapp.main.Main] -     Please provide the account ID of the customer account your would like to update     Mar-21-21 Sunday EDT 18:44:17
+{INFO} - [com.bankapp.main.Main] -     The account matching that ID is displayed below:      Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=James Logan, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     What would you like to update     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     1) Firstname     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     2) Lastname     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     3) Address     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     4) Number     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     5) Email     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     6) Password     Mar-21-21 Sunday EDT 18:44:20
+{INFO} - [com.bankapp.main.Main] -     please enter the updated information     Mar-21-21 Sunday EDT 18:44:24
+{INFO} - [com.bankapp.main.Main] -     The updated customer account is displayed below:      Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Logan James, lastName=Howlett, address=1407 Graymalkin Lane NY, number=347-404-0673, email=weaponx@aol.com, password=heavyboned24, accountid=170]     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 18:44:30
+{INFO} - [com.bankapp.main.Main] -     This is to delete a customer account     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 18:46:05
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 19:12:34
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 19:12:34
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 19:12:34
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 19:12:34
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 19:12:34
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 19:12:36
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 19:12:36
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 19:12:39
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:12:42
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 19:12:42
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 19:12:42
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 19:12:42
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 19:12:42
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:12:45
+{INFO} - [com.bankapp.main.Main] -     This is to delete a customer account     Mar-21-21 Sunday EDT 19:12:53
+{INFO} - [com.bankapp.main.Main] -     Enter the account ID of the Customer     Mar-21-21 Sunday EDT 19:12:53
+{INFO} - [com.bankapp.main.Main] -     The customer account is displayed below:      Mar-21-21 Sunday EDT 19:13:05
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Wanda, lastName=Maximoff, address=null, number=null, email=null, password=null, accountid=160]     Mar-21-21 Sunday EDT 19:13:05
+{INFO} - [com.bankapp.main.Main] -     Are you sure you want to delete this account?     Mar-21-21 Sunday EDT 19:13:05
+{INFO} - [com.bankapp.main.Main] -     1) Delete     Mar-21-21 Sunday EDT 19:13:05
+{INFO} - [com.bankapp.main.Main] -     2) Cancel     Mar-21-21 Sunday EDT 19:13:05
+{WARN} - [com.bankapp.main.Main] -     Improper selection account deletion was canceled     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:13:10
+{INFO} - [com.bankapp.main.Main] -     This is to delete a customer account     Mar-21-21 Sunday EDT 19:13:16
+{INFO} - [com.bankapp.main.Main] -     Enter the account ID of the Customer     Mar-21-21 Sunday EDT 19:13:16
+{INFO} - [com.bankapp.main.Main] -     The customer account is displayed below:      Mar-21-21 Sunday EDT 19:13:20
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Wanda, lastName=Maximoff, address=null, number=null, email=null, password=null, accountid=160]     Mar-21-21 Sunday EDT 19:13:20
+{INFO} - [com.bankapp.main.Main] -     Are you sure you want to delete this account?     Mar-21-21 Sunday EDT 19:13:20
+{INFO} - [com.bankapp.main.Main] -     1) Delete     Mar-21-21 Sunday EDT 19:13:20
+{INFO} - [com.bankapp.main.Main] -     2) Cancel     Mar-21-21 Sunday EDT 19:13:20
+{WARN} - [com.bankapp.main.Main] -     Account deletion was canceled     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:13:22
+{INFO} - [com.bankapp.main.Main] -     This is to delete a customer account     Mar-21-21 Sunday EDT 19:13:31
+{INFO} - [com.bankapp.main.Main] -     Enter the account ID of the Customer     Mar-21-21 Sunday EDT 19:13:31
+{INFO} - [com.bankapp.main.Main] -     The customer account is displayed below:      Mar-21-21 Sunday EDT 19:13:34
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Wanda, lastName=Maximoff, address=null, number=null, email=null, password=null, accountid=160]     Mar-21-21 Sunday EDT 19:13:34
+{INFO} - [com.bankapp.main.Main] -     Are you sure you want to delete this account?     Mar-21-21 Sunday EDT 19:13:34
+{INFO} - [com.bankapp.main.Main] -     1) Delete     Mar-21-21 Sunday EDT 19:13:34
+{INFO} - [com.bankapp.main.Main] -     2) Cancel     Mar-21-21 Sunday EDT 19:13:34
+{WARN} - [com.bankapp.account.dao.impl.CustomerDAOImpl] -     org.postgresql.util.PSQLException: ERROR: relation "player" does not exist
+  Position: 13     Mar-21-21 Sunday EDT 19:13:53
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Internal error occured please contact SYSADMIN     Mar-21-21 Sunday EDT 19:13:53
+{WARN} - [com.bankapp.main.Main] -     The account was deleted successfully     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:13:53
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 19:14:28
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 19:14:28
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 19:14:28
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 19:14:28
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 19:14:28
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 19:14:30
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 19:14:30
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 19:14:33
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:14:36
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 19:14:36
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 19:14:36
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 19:14:36
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 19:14:36
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:14:45
+{INFO} - [com.bankapp.main.Main] -     This is to delete a customer account     Mar-21-21 Sunday EDT 19:14:50
+{INFO} - [com.bankapp.main.Main] -     Enter the account ID of the Customer     Mar-21-21 Sunday EDT 19:14:50
+{INFO} - [com.bankapp.main.Main] -     The customer account is displayed below:      Mar-21-21 Sunday EDT 19:14:54
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Wanda, lastName=Maximoff, address=null, number=null, email=null, password=null, accountid=160]     Mar-21-21 Sunday EDT 19:14:54
+{INFO} - [com.bankapp.main.Main] -     Are you sure you want to delete this account?     Mar-21-21 Sunday EDT 19:14:54
+{INFO} - [com.bankapp.main.Main] -     1) Delete     Mar-21-21 Sunday EDT 19:14:54
+{INFO} - [com.bankapp.main.Main] -     2) Cancel     Mar-21-21 Sunday EDT 19:14:54
+{WARN} - [com.bankapp.account.dao.impl.CustomerDAOImpl] -     org.postgresql.util.PSQLException: ERROR: relation "bank_schema.player" does not exist
+  Position: 13     Mar-21-21 Sunday EDT 19:14:57
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Internal error occured please contact SYSADMIN     Mar-21-21 Sunday EDT 19:14:57
+{WARN} - [com.bankapp.main.Main] -     The account was deleted successfully     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:14:57
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 19:15:24
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 19:15:24
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 19:15:24
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 19:15:24
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 19:15:24
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 19:15:31
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 19:15:31
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 19:15:33
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:15:36
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 19:15:36
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 19:15:36
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 19:15:36
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 19:15:36
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:15:43
+{INFO} - [com.bankapp.main.Main] -     This is to delete a customer account     Mar-21-21 Sunday EDT 19:15:46
+{INFO} - [com.bankapp.main.Main] -     Enter the account ID of the Customer     Mar-21-21 Sunday EDT 19:15:46
+{INFO} - [com.bankapp.main.Main] -     The customer account is displayed below:      Mar-21-21 Sunday EDT 19:15:48
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Wanda, lastName=Maximoff, address=null, number=null, email=null, password=null, accountid=160]     Mar-21-21 Sunday EDT 19:15:48
+{INFO} - [com.bankapp.main.Main] -     Are you sure you want to delete this account?     Mar-21-21 Sunday EDT 19:15:48
+{INFO} - [com.bankapp.main.Main] -     1) Delete     Mar-21-21 Sunday EDT 19:15:48
+{INFO} - [com.bankapp.main.Main] -     2) Cancel     Mar-21-21 Sunday EDT 19:15:48
+{WARN} - [com.bankapp.account.dao.impl.CustomerDAOImpl] -     org.postgresql.util.PSQLException: ERROR: column "id" does not exist
+  Position: 40     Mar-21-21 Sunday EDT 19:15:52
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Internal error occured please contact SYSADMIN     Mar-21-21 Sunday EDT 19:15:52
+{WARN} - [com.bankapp.main.Main] -     The account was deleted successfully     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:15:52
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 19:16:17
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 19:16:17
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 19:16:17
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 19:16:17
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 19:16:17
+{INFO} - [com.bankapp.main.Main] -     Thank you for banking with Marvel Bank!     Mar-21-21 Sunday EDT 19:16:22
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 19:16:28
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 19:16:28
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 19:16:28
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 19:16:28
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 19:16:28
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 19:16:31
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 19:16:31
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 19:16:33
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:16:35
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 19:16:35
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 19:16:35
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 19:16:35
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 19:16:35
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:16:44
+{INFO} - [com.bankapp.main.Main] -     This is to delete a customer account     Mar-21-21 Sunday EDT 19:16:53
+{INFO} - [com.bankapp.main.Main] -     Enter the account ID of the Customer     Mar-21-21 Sunday EDT 19:16:53
+{INFO} - [com.bankapp.main.Main] -     The customer account is displayed below:      Mar-21-21 Sunday EDT 19:16:55
+{INFO} - [com.bankapp.main.Main] -     Customer [firstName=Wanda, lastName=Maximoff, address=null, number=null, email=null, password=null, accountid=160]     Mar-21-21 Sunday EDT 19:16:55
+{INFO} - [com.bankapp.main.Main] -     Are you sure you want to delete this account?     Mar-21-21 Sunday EDT 19:16:55
+{INFO} - [com.bankapp.main.Main] -     1) Delete     Mar-21-21 Sunday EDT 19:16:55
+{INFO} - [com.bankapp.main.Main] -     2) Cancel     Mar-21-21 Sunday EDT 19:16:55
+{WARN} - [com.bankapp.main.Main] -     The account was deleted successfully     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 19:16:57
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 21:37:21
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 21:37:21
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 21:37:21
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 21:37:21
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 21:37:21
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 21:37:28
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 21:37:28
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 21:37:31
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 21:37:34
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 21:37:34
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 21:37:34
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 21:37:34
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 21:37:34
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 21:37:40
+{INFO} - [com.bankapp.main.Main] -     This is to list allcustomer accounts     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     Listing all accounts:     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 21:37:43
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 21:56:41
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 21:56:41
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 21:56:41
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 21:56:41
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 21:56:41
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 21:56:47
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 21:56:47
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 21:56:50
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 21:56:55
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 21:56:55
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 21:56:55
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 21:56:55
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 21:56:55
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 21:56:59
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by lastname     Mar-21-21 Sunday EDT 21:57:05
+{INFO} - [com.bankapp.main.Main] -     Enter the last name of the customer you are looking for     Mar-21-21 Sunday EDT 21:57:05
+{INFO} - [com.bankapp.main.Main] -     Listing all accounts with that last name:     Mar-21-21 Sunday EDT 21:57:10
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: No customer found with the last name "stark"     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 21:57:10
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by lastname     Mar-21-21 Sunday EDT 21:57:19
+{INFO} - [com.bankapp.main.Main] -     Enter the last name of the customer you are looking for     Mar-21-21 Sunday EDT 21:57:19
+{INFO} - [com.bankapp.main.Main] -     Listing all accounts with that last name:     Mar-21-21 Sunday EDT 21:57:23
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: No customer found with the last name "Stark"     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 21:57:24
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 21:59:52
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 21:59:52
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 21:59:52
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 21:59:52
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 21:59:52
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 21:59:55
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 21:59:55
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 21:59:58
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 22:00:01
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 22:00:01
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 22:00:01
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 22:00:01
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 22:00:01
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 22:00:03
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by lastname     Mar-21-21 Sunday EDT 22:00:06
+{INFO} - [com.bankapp.main.Main] -     Enter the last name of the customer you are looking for     Mar-21-21 Sunday EDT 22:00:06
+{INFO} - [com.bankapp.main.Main] -     Listing all accounts with that last name:     Mar-21-21 Sunday EDT 22:00:10
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: No customer found with the last name "stark"     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 22:00:10
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 22:01:50
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 22:01:50
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 22:01:50
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 22:01:50
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 22:01:50
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-21-21 Sunday EDT 22:01:53
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-21-21 Sunday EDT 22:01:53
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 22:01:55
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 22:01:59
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-21-21 Sunday EDT 22:01:59
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-21-21 Sunday EDT 22:01:59
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-21-21 Sunday EDT 22:01:59
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-21-21 Sunday EDT 22:01:59
+{INFO} - [com.bankapp.main.Main] -     This is the menu for managing Customer accounts     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 22:02:00
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by lastname     Mar-21-21 Sunday EDT 22:02:06
+{INFO} - [com.bankapp.main.Main] -     Enter the last name of the customer you are looking for     Mar-21-21 Sunday EDT 22:02:06
+{INFO} - [com.bankapp.main.Main] -     Listing all accounts with that last name:     Mar-21-21 Sunday EDT 22:02:10
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: No customer found with the last name "stark"     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 22:02:10
+{INFO} - [com.bankapp.main.Main] -     This is to find customer by lastname     Mar-21-21 Sunday EDT 22:02:19
+{INFO} - [com.bankapp.main.Main] -     Enter the last name of the customer you are looking for     Mar-21-21 Sunday EDT 22:02:19
+{INFO} - [com.bankapp.main.Main] -     Listing all accounts with that last name:     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     1) Find Customer by ID     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     2) Find Customer by Lastname     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     3) List All Customer Accounts     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     4) Update Customer Account(by ID)     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     5) Create NEW Customer Account     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     6) Delete Customer Account     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     7) Return     Mar-21-21 Sunday EDT 22:02:22
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-21-21 Sunday EDT 23:58:07
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-21-21 Sunday EDT 23:58:07
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-21-21 Sunday EDT 23:58:07
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-21-21 Sunday EDT 23:58:07
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 23:58:07
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-21-21 Sunday EDT 23:58:11
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-21-21 Sunday EDT 23:58:11
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-21-21 Sunday EDT 23:58:11
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-21-21 Sunday EDT 23:58:11
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-21-21 Sunday EDT 23:58:11
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-21-21 Sunday EDT 23:58:20
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-21-21 Sunday EDT 23:58:33
+{INFO} - [com.bankapp.main.Main] -     0     Mar-21-21 Sunday EDT 23:58:41
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-21-21 Sunday EDT 23:58:41
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-21-21 Sunday EDT 23:58:41
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-21-21 Sunday EDT 23:58:41
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-21-21 Sunday EDT 23:58:41
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-21-21 Sunday EDT 23:58:41
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-21-21 Sunday EDT 23:58:41
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 00:24:54
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 00:24:54
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 00:24:54
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 00:24:54
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 00:24:54
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 00:30:30
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 00:30:30
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 00:30:30
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 00:30:30
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 00:30:30
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 00:30:31
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 00:30:40
+{INFO} - [com.bankapp.main.Main] -     0     Mar-22-21 Monday EDT 00:30:47
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 00:30:47
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 00:30:47
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 00:30:47
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 00:30:47
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-22-21 Monday EDT 00:30:47
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 00:30:47
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:15:58
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:15:58
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:15:58
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:15:58
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:15:58
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:16:04
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:16:04
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:16:04
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:16:04
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:16:04
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-22-21 Monday EDT 02:16:08
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 02:16:08
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 02:16:14
+{WARN} - [com.bankapp.main.Main] -     The ID and password did not match please try again     Mar-22-21 Monday EDT 02:16:16
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 02:16:16
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:16:28
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:16:28
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:16:28
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:16:28
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:16:28
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:17:30
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:17:30
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:17:30
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:17:30
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:17:30
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 02:17:33
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 02:17:33
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 02:17:33
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 02:17:33
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:17:33
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 02:17:39
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 02:17:50
+{INFO} - [com.bankapp.main.Main] -     0     Mar-22-21 Monday EDT 02:17:55
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 02:17:55
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 02:17:55
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 02:17:55
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 02:17:55
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-22-21 Monday EDT 02:17:55
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 02:17:55
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:30:08
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:30:08
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:30:08
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:30:08
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:30:08
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 02:30:12
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 02:30:12
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 02:30:12
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 02:30:12
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:30:12
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 02:30:15
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 02:30:25
+{INFO} - [com.bankapp.main.Main] -     0     Mar-22-21 Monday EDT 02:30:33
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 02:30:33
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 02:30:33
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 02:30:33
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 02:30:33
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-22-21 Monday EDT 02:30:33
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 02:30:33
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:31:37
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:31:37
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:31:37
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:31:37
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:31:37
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 02:31:45
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 02:31:45
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 02:31:45
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 02:31:45
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:31:45
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 02:31:47
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 02:31:55
+{INFO} - [com.bankapp.main.Main] -     0     Mar-22-21 Monday EDT 02:32:00
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 02:32:00
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 02:32:00
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 02:32:00
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 02:32:00
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-22-21 Monday EDT 02:32:00
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 02:32:00
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:38:21
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:38:21
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:38:21
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:38:21
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:38:21
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 02:38:49
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 02:38:49
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 02:38:49
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 02:38:49
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:38:49
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 02:39:02
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 02:39:12
+{ERROR} - [com.bankapp.account.dao.impl.CustomerDAOImpl] -     org.postgresql.util.PSQLException: ResultSet not positioned properly, perhaps you need to call next.     Mar-22-21 Monday EDT 02:39:18
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: internal error     Mar-22-21 Monday EDT 02:39:18
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 02:39:18
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 02:39:18
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 02:39:18
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 02:39:18
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-22-21 Monday EDT 02:39:18
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 02:39:18
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:39:44
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:39:44
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:39:44
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:39:44
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:39:44
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 02:39:47
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 02:39:47
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 02:39:47
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 02:39:47
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:39:47
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 02:39:48
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 02:39:58
+{INFO} - [com.bankapp.main.Main] -     140     Mar-22-21 Monday EDT 02:40:05
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 02:40:05
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 02:40:05
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 02:40:05
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 02:40:05
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-22-21 Monday EDT 02:40:05
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 02:40:05
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:45:18
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:45:18
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:45:18
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:45:18
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:45:18
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:46:00
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:46:00
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:46:00
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:46:00
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:46:00
+{INFO} - [com.bankapp.main.Main] -     Please only enter a number 1-3     Mar-22-21 Monday EDT 02:46:02
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 02:46:02
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 02:46:02
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 02:46:02
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 02:46:02
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:46:02
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 02:46:09
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 02:46:09
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 02:46:09
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 02:46:09
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 02:46:09
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 02:46:11
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 02:46:22
+{INFO} - [com.bankapp.main.Main] -     140     Mar-22-21 Monday EDT 02:46:30
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 02:46:30
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 02:46:30
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 02:46:30
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 02:46:30
+{INFO} - [com.bankapp.main.Main] -     2) Create a new bank account     Mar-22-21 Monday EDT 02:46:30
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 02:46:30
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 10:02:30
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 10:02:30
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 10:02:30
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 10:02:30
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 10:02:30
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 10:03:51
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 10:03:51
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 10:03:51
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 10:03:51
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 10:03:51
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 10:03:53
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 10:04:03
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 10:04:09
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 10:04:09
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 10:04:09
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 10:04:09
+{INFO} - [com.bankapp.main.Main] -     2) Open a new bank account     Mar-22-21 Monday EDT 10:04:09
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 10:04:09
+{INFO} - [com.bankapp.main.Main] -     This is for opening a NEW BANK account     Mar-22-21 Monday EDT 10:04:19
+{INFO} - [com.bankapp.main.Main] -     Please choose the account type you would like to open :     Mar-22-21 Monday EDT 10:04:19
+{INFO} - [com.bankapp.main.Main] -     1) Checkings     Mar-22-21 Monday EDT 10:04:19
+{INFO} - [com.bankapp.main.Main] -     2) Savings     Mar-22-21 Monday EDT 10:04:19
+{INFO} - [com.bankapp.main.Main] -     Savings account created successfully, please allow 2-3 business days for approval     Mar-22-21 Monday EDT 10:04:30
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 10:04:30
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 10:04:30
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 10:04:30
+{INFO} - [com.bankapp.main.Main] -     2) Open a new bank account     Mar-22-21 Monday EDT 10:04:30
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 10:04:30
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 10:39:15
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 10:39:15
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 10:39:15
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 10:39:15
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 10:39:15
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 10:39:22
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 10:39:22
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 10:39:22
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 10:39:22
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 10:39:22
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 10:39:24
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 10:48:56
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 10:49:12
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 10:49:12
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 10:49:12
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 10:49:12
+{INFO} - [com.bankapp.main.Main] -     2) Open a new bank account     Mar-22-21 Monday EDT 10:49:12
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 10:49:12
+{INFO} - [com.bankapp.main.Main] -     Displaying your accounts     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     Choose an account for more actions     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-22-21 Monday EDT 10:49:17
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 10:50:08
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 10:50:08
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 10:50:08
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 10:50:08
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 10:50:08
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 10:50:12
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 10:50:12
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 10:50:12
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 10:50:12
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 10:50:12
+{INFO} - [com.bankapp.main.Main] -     Please enter your user email address     Mar-22-21 Monday EDT 10:50:16
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-22-21 Monday EDT 10:50:32
+{INFO} - [com.bankapp.main.Main] -     Welcome back! How will you be a HERO today?     Mar-22-21 Monday EDT 10:50:37
+{INFO} - [com.bankapp.main.Main] -     Welcome back HERO     Mar-22-21 Monday EDT 10:50:37
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-22-21 Monday EDT 10:50:37
+{INFO} - [com.bankapp.main.Main] -     1) My bank accounts     Mar-22-21 Monday EDT 10:50:37
+{INFO} - [com.bankapp.main.Main] -     2) Open a new bank account     Mar-22-21 Monday EDT 10:50:37
+{INFO} - [com.bankapp.main.Main] -     3) Log out     Mar-22-21 Monday EDT 10:50:37
+{INFO} - [com.bankapp.main.Main] -     Displaying your accounts     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     [Account [accountNumber=100000070, accountType=Savings, status=Pending, balance=0.0, accountDate=2021-03-22]]     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     Choose an account for more actions     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     Would you like to make a transaction?     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-22-21 Monday EDT 10:50:40
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:09:48
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:09:48
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:09:48
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:09:48
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:09:48
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-22-21 Monday EDT 11:09:54
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 11:09:54
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:10:06
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:10:06
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:10:06
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:10:06
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:10:06
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-22-21 Monday EDT 11:10:09
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 11:10:09
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:10:20
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:10:20
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:10:20
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:10:20
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:10:20
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-22-21 Monday EDT 11:10:22
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 11:10:22
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:10:38
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:10:38
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:10:38
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:10:38
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:10:38
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-22-21 Monday EDT 11:10:42
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 11:10:42
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:11:11
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:11:11
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:11:11
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:11:11
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:11:11
+{INFO} - [com.bankapp.main.Main] -     Welcome to customer login     Mar-22-21 Monday EDT 11:11:13
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-22-21 Monday EDT 11:11:13
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-22-21 Monday EDT 11:11:13
+{INFO} - [com.bankapp.main.Main] -     2) Create an account     Mar-22-21 Monday EDT 11:11:13
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:11:13
+{INFO} - [com.bankapp.main.Main] -     Exiting to main menu     Mar-22-21 Monday EDT 11:11:29
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:11:29
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:11:29
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:11:29
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:11:29
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:11:29
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-22-21 Monday EDT 11:12:16
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 11:12:16
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:13:23
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:13:23
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:13:23
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:13:23
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:13:23
+{INFO} - [com.bankapp.main.Main] -     Welcome to employee login     Mar-22-21 Monday EDT 11:14:13
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-22-21 Monday EDT 11:14:13
+{INFO} - [com.bankapp.main.Main] -     Welcome to Marvel Bank!     Mar-22-21 Monday EDT 11:15:01
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-22-21 Monday EDT 11:15:01
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-22-21 Monday EDT 11:15:01
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-22-21 Monday EDT 11:15:01
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-22-21 Monday EDT 11:15:01

@@ -1,0 +1,46 @@
+package com.bankapp.employee.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.employee.dao.EmployeeDAO;
+import com.bankapp.employee.model.Employee;
+import com.bankapp.exception.LoginException;
+
+
+public class EmployeeDAOImpl implements EmployeeDAO{
+	
+	Logger log=Logger.getLogger(EmployeeDAOImpl.class);
+	@Override
+	public boolean empLogin(int empId, String empPassword) throws LoginException {
+		int check = 0;
+		try(Connection connection=PostgresConnection.getConnection()){
+			String sql ="select * from bank_schema.employee";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next() && check == 0) {
+				int realId = resultSet.getInt("empid");
+				String realPassword = resultSet.getString("password");
+			     if(empId==realId && empPassword.equals(realPassword)) {
+			    	 check = 1;
+					} 
+				}
+			} catch (ClassNotFoundException | SQLException e) {
+				log.info(e);
+				throw new LoginException("Internal error contact SYSADMIN");
+			}
+			if (check == 1) {
+				return true;
+			} else {
+				return false;
+			}
+
+		}
+	}

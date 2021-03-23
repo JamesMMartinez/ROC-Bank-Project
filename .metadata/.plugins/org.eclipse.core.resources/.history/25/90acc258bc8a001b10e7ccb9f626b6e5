@@ -1,0 +1,78 @@
+package com.bankapp.account.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import com.bankapp.account.dao.AccountDAO;
+import com.bankapp.account.model.Account;
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.exception.BankException;
+import com.bankapp.exception.LoginException;
+
+public class AccountDAOImpl implements AccountDAO {
+
+	@Override
+	public int openNewBankAcc(Account account, int accountId) throws BankException {
+		int c = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "insert into bank_schema.account(acctype) values(?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, account.getFirstName());
+			preparedStatement.setString(2, customer.getLastName());
+			preparedStatement.setString(3, customer.getAddress());
+			preparedStatement.setString(4, customer.getNumber());
+			preparedStatement.setString(5, customer.getEmail());
+			preparedStatement.setString(6, customer.getPassword());// this is how you get values from has-a classes
+			c = preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// only at development not at production or live to know what exception
+			throw new LoginException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return c;
+	}
+
+	@Override
+	public Account getBankAccByNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listMyAccounts(String email, String password) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listBankAccById(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listAllAccounts() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listAccountsByStatus(String status) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account updateBankAccount(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account closeBankAccount(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

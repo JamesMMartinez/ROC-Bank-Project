@@ -1,0 +1,59 @@
+package com.bankapp.account.dao.impl;
+
+import java.util.List;
+
+import com.bankapp.account.dao.AccountDAO;
+import com.bankapp.account.model.Account;
+import com.bankapp.exception.BankException;
+
+public class AccountDAOImpl implements AccountDAO {
+
+	@Override
+	public int createNewBankAcc(Account account) throws BankException {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Account getBankAccByNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listMyAccounts(String email, String password) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listBankAccById(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listAllAccounts() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Account> listAccountsByStatus(String status) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account updateBankAccount(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Account closeBankAccount(int id) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

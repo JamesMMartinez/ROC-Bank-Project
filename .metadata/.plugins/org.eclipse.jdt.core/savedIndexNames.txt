@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\ROC_bank_project\.metadata\.plugins\org.eclipse.jdt.core
+221288443.index
+900204332.index
+4144378148.index
+1675458734.index
+3156003449.index
+2080197057.index

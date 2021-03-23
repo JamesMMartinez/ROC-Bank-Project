@@ -1,0 +1,17 @@
+package com.bankapp.employee.service.impl;
+
+import com.bankapp.employee.model.Employee;
+import com.bankapp.employee.service.EmployeeService;
+import com.bankapp.exception.LoginException;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	@Override
+	public boolean empLogin(int empId, String password) throws LoginException {
+		if(!EmployeeValidations.isValidEmpID(empId){
+			throw new LoginException("Entered employee ID"+empId+"is invalid");
+		}
+		return false;
+	}
+
+}

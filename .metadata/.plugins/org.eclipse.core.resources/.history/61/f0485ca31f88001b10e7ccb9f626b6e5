@@ -1,0 +1,11 @@
+package com.bankapp.employee.service;
+
+import com.bankapp.exception.LoginException;
+
+public interface EmployeeService {
+	
+	public int empLogin()throws LoginException;
+
+	
+
+}

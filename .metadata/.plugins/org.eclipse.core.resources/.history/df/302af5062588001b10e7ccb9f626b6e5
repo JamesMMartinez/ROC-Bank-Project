@@ -1,0 +1,28 @@
+package com.bankapp.employee.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.employee.dao.EmployeeDAO;
+import com.bankapp.exception.LoginException;
+
+import jdk.internal.org.jline.utils.Log;
+
+public class EmployeeDAOImpl implements EmployeeDAO{
+
+	@Override
+	public int empLogin(int Id, String password) throws LoginException {
+		//List<>
+		try(Connection connection=PostgresConnection.getConnection()){
+			String sql ="select empid, password from bank_schema.employee";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			System.out.println(resultSet);
+		//}catch()
+		return 0;
+	}
+
+
+}

@@ -1,0 +1,59 @@
+package com.bankapp.transaction.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.account.dao.impl.CustomerDAOImpl;
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.exception.BankException;
+import com.bankapp.exception.LoginException;
+import com.bankapp.transaction.dao.TransactionDAO;
+import com.bankapp.transaction.model.Transaction;
+
+public class TransactionDAOImpl implements TransactionDAO{
+	
+	Logger log=Logger.getLogger(TransactionDAOImpl.class);
+
+	@Override
+	public int performTransaction(Transaction transaction) throws BankException {
+		int c = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "insert into bank_schema.customer(firstname,lastname,address,number,email,password) values(?,?,?,?,?,?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customer.getFirstName());
+			preparedStatement.setString(2, customer.getLastName());
+			preparedStatement.setString(3, customer.getAddress());
+			preparedStatement.setString(4, customer.getNumber());
+			preparedStatement.setString(5, customer.getEmail());
+			preparedStatement.setString(6, customer.getPassword());// this is how you get values from has-a classes
+			c = preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// only at development not at production or live to know what exception
+			throw new LoginException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return c;
+	}
+
+	@Override
+	public List<Transaction> listTransactionById(int accountid) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Transaction> listTransactionByAccNum(int accountNumber) throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Transaction> listAllTransactions() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

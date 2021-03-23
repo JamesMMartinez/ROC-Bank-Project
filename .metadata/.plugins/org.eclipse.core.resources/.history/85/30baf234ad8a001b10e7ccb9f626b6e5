@@ -1,0 +1,154 @@
+package com.bankapp.account.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.apache.log4j.Logger;
+
+import com.bankapp.account.dao.CustomerDAO;
+import com.bankapp.account.model.Customer;
+import com.bankapp.dbutil.PostgresConnection;
+import com.bankapp.employee.dao.impl.EmployeeDAOImpl;
+import com.bankapp.exception.BankException;
+import com.bankapp.exception.LoginException;
+
+public class CustomerDAOImpl implements CustomerDAO{
+	
+	Logger log=Logger.getLogger(CustomerDAOImpl.class);
+
+	@Override
+	public int createNewCustAcc(Customer customer) throws LoginException {
+		int c = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "insert into bank_schema.customer(firstname,lastname,address,number,email,password) values(?,?,?,?,?,?)";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setString(1, customer.getFirstName());
+			preparedStatement.setString(2, customer.getLastName());
+			preparedStatement.setString(3, customer.getAddress());
+			preparedStatement.setString(4, customer.getNumber());
+			preparedStatement.setString(5, customer.getEmail());
+			preparedStatement.setString(6, customer.getPassword());// this is how you get values from has-a classes
+			c = preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// only at development not at production or live to know what exception
+			throw new LoginException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return c;
+	}
+
+	@Override
+	public boolean custLogin(String email, String password) throws LoginException {
+		int check = 0;
+		try(Connection connection=PostgresConnection.getConnection()){
+			String sql ="select email, password from bank_schema.customer";
+			PreparedStatement preparedStatement=connection.prepareStatement(sql);
+			ResultSet resultSet=preparedStatement.executeQuery();
+			while(resultSet.next() && check == 0) {
+				String realEmail = resultSet.getString("email");
+				String realPassword = resultSet.getString("password");
+			     if(email.equals(realEmail) && password.equals(realPassword)) {
+			    	 check = 1;
+					} 
+				}
+			} catch (ClassNotFoundException | SQLException e) {
+				log.info(e);
+				throw new LoginException("Internal error contact SYSADMIN");
+			}
+			if (check == 1) {
+				return true;
+			}else {
+				return false;
+			}
+
+}
+
+	@Override
+	public Customer getCustomerAccByid(int accountid) throws BankException {
+		Customer customer = null;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "select firstname,lastname,address,number,email,password from bank_schema.customer where accountid=?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, accountid);
+			
+			ResultSet resultSet=preparedStatement.executeQuery();
+			if(resultSet.next()) {
+				customer=new Customer();
+				customer.setAccountid(accountid);
+				customer.setFirstName(resultSet.getString("firstname"));
+				customer.setLastName(resultSet.getString("lastname"));
+				customer.setAddress(resultSet.getString("address"));
+				customer.setNumber(resultSet.getString("number"));
+				customer.setEmail(resultSet.getString("email"));
+				customer.setPassword(resultSet.getString("password"));
+			}
+			if(customer==null) {
+				throw new BankException("No customer found with  account ID : "+accountid);
+			}
+		} catch (ClassNotFoundException | SQLException e) {
+			log.error(e);
+			throw new BankException("internal error");
+		}
+		return customer;
+	}
+
+	@Override
+	public int updateCustomerAccByid(int accountid, int choice, String update) throws BankException {
+		int c = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			
+			String sqlfn = "update bank_schema.customer set firstname = ? where accountid= ?";
+			String sqlln = "update bank_schema.customer set lastname = ? where accountid= ?";
+			String sqlad = "update bank_schema.customer set address = ? where accountid= ?";
+			String sqlnu = "update bank_schema.customer set number = ? where accountid= ?";
+			String sqlem = "update bank_schema.customer set email = ? where accountid= ?";
+			String sqlpa = "update bank_schema.customer set password = ? where accountid= ?";
+			String sql =null;
+			if(choice == 1) {
+				sql = sqlfn;
+			}else if(choice ==2) {
+				sql = sqlln;
+			}else if(choice ==3) {
+				sql = sqlad;
+			}else if(choice ==4) {
+				sql = sqlnu;
+			}else if(choice ==5) {
+				sql = sqlem;
+			}else if(choice ==6) {
+				sql = sqlpa;
+			}
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(2, accountid);
+			preparedStatement.setString(1, update);
+			c = preparedStatement.executeUpdate();
+	
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// only at development not at production or live to know what exception
+			throw new BankException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return c;
+	}
+
+	@Override
+	public int deleteCustomerAccByid(int accountid) throws BankException {
+		int c = 0;
+		try (Connection connection = PostgresConnection.getConnection()) {
+			String sql = "delete from bank_schema.customer where accountid = ?";
+			PreparedStatement preparedStatement = connection.prepareStatement(sql);
+			preparedStatement.setInt(1, accountid);
+			c = preparedStatement.executeUpdate();
+		} catch (ClassNotFoundException | SQLException e) {
+			log.warn(e);// only at development not at production or live to know what exception
+			throw new BankException("Internal error occured please contact SYSADMIN");
+		}//can add new catch to throw new business exception specific to sqlexception
+		return c;
+	}
+
+	@Override
+	public List<Customer> listAllCustAccounts() throws BankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

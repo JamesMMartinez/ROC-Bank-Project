@@ -1,0 +1,18 @@
+package com.bankapp.account.service;
+
+import java.util.List;
+
+import com.bankapp.account.model.Account;
+import com.bankapp.exception.BankException;
+
+public interface AccountService {
+	
+	public int createNewBankAcc(Account account)throws BankException;
+	public List<Account> viewYourAccounts()throws BankException;
+	//public int viewBankAccByNum(int accountNumber)throws BankException;
+	public List<Account> viewBankAccById(int id)throws BankException; //Employee
+	public List<Account> viewBankAccByNum(int accountNumber)throws BankException; //Employee
+	public List<Account> viewBankAccByLN(String lastName)throws BankException; //Employee
+	public List<Account> listAllAccounts()throws BankException; //Employee
+	public List<Account> viewPendingAccounts(String status)throws BankException; //Employee
+}
