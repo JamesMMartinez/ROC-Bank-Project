@@ -28,9 +28,9 @@ public class AccountDAOImpl implements AccountDAO {
 			preparedStatement.setInt(2,accountId);
 			c = preparedStatement.executeUpdate();
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);// only at development not at production or live to know what exception
-			throw new BankException("Internal error occured please contact SYSADMIN");
-		}//can add new catch to throw new business exception specific to sqlexception
+			log.debug(e);
+			throw new BankException("Internal error, occured could not open a new account");
+		}//can add new catch to throw new bank exceptions
 		return c;
 	}
 
@@ -53,14 +53,14 @@ public class AccountDAOImpl implements AccountDAO {
 				account.setStatus(resultSet.getString("status"));
 				account.setBalance(resultSet.getInt("balance"));
 				account.setAccountDate(resultSet.getDate("timestamp"));
-				account.setOwnerName(resultSet.getString("firstname")+resultSet.getString("lastname"));
+				account.setOwnerName(resultSet.getString("firstname")+" "+resultSet.getString("lastname"));
 			}
 			if(account==null) {
-				throw new BankException("There are currently no bank accounts with that account number");
+				throw new BankException("There are currently no Bank Accounts with Account Number: "+accountNumber);
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
-			throw new BankException("internal error");
+			log.debug(e);
+			throw new BankException("Internal error, could not retrieve Bank Account");
 		}
 		return account;
 	}
@@ -85,15 +85,15 @@ public class AccountDAOImpl implements AccountDAO {
 				account.setStatus(resultSet.getString("status"));
 				account.setBalance(resultSet.getInt("balance"));
 				account.setAccountDate(resultSet.getDate("timestamp"));
-				account.setOwnerName(resultSet.getString("firstname")+ resultSet.getString("lastname"));
+				account.setOwnerName(resultSet.getString("firstname")+" "+resultSet.getString("lastname"));
 				accountList.add(account);
 			}
 			if(accountList.size()==0) {
-				throw new BankException("There are currently no bank accounts open");
+				throw new BankException("There are currently no Bank Accounts with Account ID: "+accountId);
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
-			throw new BankException("internal error");
+			log.debug(e);
+			throw new BankException("Internal error, could not retrieve Bank Accounts");
 		}
 		return accountList;
 	}
@@ -102,7 +102,6 @@ public class AccountDAOImpl implements AccountDAO {
 	public List<Account> listAllAccounts() throws BankException {
 		List<Account> accountList = new ArrayList<>();
 		try (Connection connection = PostgresConnection.getConnection()) {
-			//String sql = "select * from bank_schema.account";
 			String sql = "select a.accountnumber, a.accountid, a.acctype, a.status, a.balance, a.timestamp, c.firstname, c.lastname \r\n"
 					+ "from bank_schema.account a join bank_schema.customer c \r\n"
 					+ "on a.accountid = c.accountid";
@@ -117,15 +116,15 @@ public class AccountDAOImpl implements AccountDAO {
 				account.setStatus(resultSet.getString("status"));
 				account.setBalance(resultSet.getInt("balance"));
 				account.setAccountDate(resultSet.getDate("timestamp"));
-				account.setOwnerName(resultSet.getString("firstname")+resultSet.getString("lastname"));
+				account.setOwnerName(resultSet.getString("firstname")+" "+resultSet.getString("lastname"));
 				accountList.add(account);
 			}
 			if(accountList.size()==0) {
-				throw new BankException("There are currently no bank accounts open");
+				throw new BankException("There are currently no Bank Accounts open");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
-			throw new BankException("internal error");
+			log.debug(e);
+			throw new BankException("Internal error, could not retrieve Bank Accounts");
 		}
 		return accountList;
 	}
@@ -134,7 +133,6 @@ public class AccountDAOImpl implements AccountDAO {
 	public List<Account> listAccountsByStatus(String status) throws BankException {
 		List<Account> accountList = new ArrayList<>();
 		try (Connection connection = PostgresConnection.getConnection()) {
-			//String sql = "select * from bank_schema.account where status=?";
 			String sql = "select a.accountnumber, a.acctype, a.accountid, a.balance, a.timestamp, c.firstname, c.lastname \r\n"
 					+ "from bank_schema.account a join bank_schema.customer c \r\n"
 					+ "on a.accountid = c.accountid where status =?";
@@ -150,15 +148,15 @@ public class AccountDAOImpl implements AccountDAO {
 				account.setStatus(status);
 				account.setBalance(resultSet.getInt("balance"));
 				account.setAccountDate(resultSet.getDate("timestamp"));
-				account.setOwnerName(resultSet.getString("firstname")+resultSet.getString("lastname"));
+				account.setOwnerName(resultSet.getString("firstname")+" "+resultSet.getString("lastname"));
 				accountList.add(account);
 			}
 			if(accountList.size()==0) {
-				throw new BankException("There are currently no bank accounts that are "+status);
+				throw new BankException("There are currently no Bank Accounts that are "+status);
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
-			throw new BankException("internal error");
+			log.debug(e);
+			throw new BankException("Internal error, could not retrieve Bank Accounts");
 		}
 		return accountList;
 	}
@@ -179,7 +177,7 @@ public class AccountDAOImpl implements AccountDAO {
 			}
 
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
+			log.debug(e);
 		}
 		
 		return accountId;
@@ -197,9 +195,9 @@ public class AccountDAOImpl implements AccountDAO {
 			c = preparedStatement.executeUpdate();
 	
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);// only at development not at production or live to know what exception
-			throw new BankException("Internal error occured please contact SYSADMIN");
-		}//can add new catch to throw new business exception specific to sqlexception
+			log.debug(e);
+			throw new BankException("Internal error, bank account could not be updated");
+		}//can add new catch to throw new business exception
 		return c;
 	}
 
@@ -215,9 +213,9 @@ public class AccountDAOImpl implements AccountDAO {
 			c = preparedStatement.executeUpdate();
 	
 		} catch (ClassNotFoundException | SQLException e) {
-			log.warn(e);// only at development not at production or live to know what exception
-			throw new BankException("Internal error occured please contact SYSADMIN");
-		}//can add new catch to throw new business exception specific to sqlexception
+			log.debug(e);
+			throw new BankException("Internal error, Bank Account status could not be updated");
+		}
 		return c;
 	}
 	
@@ -230,9 +228,9 @@ public class AccountDAOImpl implements AccountDAO {
 				preparedStatement.setInt(1, accountNumber);
 				c = preparedStatement.executeUpdate();
 			} catch (ClassNotFoundException | SQLException e) {
-				log.warn(e);// only at development not at production or live to know what exception
-				throw new BankException("Internal error occured please contact SYSADMIN");
-			}//can add new catch to throw new business exception specific to sqlexception
+				log.debug(e);
+				throw new BankException("Internal error, Bank Account could not be deleted");
+			}
 			return c;		}
 
 }

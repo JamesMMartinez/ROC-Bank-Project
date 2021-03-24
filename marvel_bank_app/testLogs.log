@@ -1321,3 +1321,403 @@ Welcome back! How will you be a HERO today?     Mar-23-21 Tuesday EDT 14:55:46
 {INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-23-21 Tuesday EDT 14:55:46
 {INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-23-21 Tuesday EDT 14:55:46
 {INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-23-21 Tuesday EDT 14:55:46
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank!     Mar-23-21 Tuesday EDT 14:58:21
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-23-21 Tuesday EDT 14:58:21
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-23-21 Tuesday EDT 14:58:21
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-23-21 Tuesday EDT 14:58:21
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-23-21 Tuesday EDT 14:58:21
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Employee Login     Mar-23-21 Tuesday EDT 14:58:23
+{INFO} - [com.bankapp.main.Main] -     Please enter your user ID     Mar-23-21 Tuesday EDT 14:58:23
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-23-21 Tuesday EDT 14:58:24
+{INFO} - [com.bankapp.main.Main] -     
+Welcome back! How will you be a HERO today?     Mar-23-21 Tuesday EDT 14:58:27
+{INFO} - [com.bankapp.main.Main] -     1) Manage Customer Accounts     Mar-23-21 Tuesday EDT 14:58:27
+{INFO} - [com.bankapp.main.Main] -     2) Manage Bank Accounts     Mar-23-21 Tuesday EDT 14:58:27
+{INFO} - [com.bankapp.main.Main] -     3) Manage Transactions     Mar-23-21 Tuesday EDT 14:58:27
+{INFO} - [com.bankapp.main.Main] -     4) Log Out     Mar-23-21 Tuesday EDT 14:58:27
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank!     Mar-23-21 Tuesday EDT 15:45:50
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-23-21 Tuesday EDT 15:45:50
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-23-21 Tuesday EDT 15:45:50
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-23-21 Tuesday EDT 15:45:50
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-23-21 Tuesday EDT 15:45:50
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-23-21 Tuesday EDT 15:46:04
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-23-21 Tuesday EDT 15:46:04
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-23-21 Tuesday EDT 15:46:04
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-23-21 Tuesday EDT 15:46:04
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-23-21 Tuesday EDT 15:46:04
+{INFO} - [com.bankapp.main.Main] -     
+Please enter your user email address     Mar-23-21 Tuesday EDT 15:46:08
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-23-21 Tuesday EDT 15:46:15
+{INFO} - [com.bankapp.main.Main] -     
+Welcome back HERO     Mar-23-21 Tuesday EDT 15:46:19
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-23-21 Tuesday EDT 15:46:19
+{INFO} - [com.bankapp.main.Main] -     1) View My Bank Accounts     Mar-23-21 Tuesday EDT 15:46:19
+{INFO} - [com.bankapp.main.Main] -     2) Open a New Bank Account     Mar-23-21 Tuesday EDT 15:46:19
+{INFO} - [com.bankapp.main.Main] -     3) Log Out     Mar-23-21 Tuesday EDT 15:46:19
+{INFO} - [com.bankapp.main.Main] -     
+Displaying your accounts:     Mar-23-21 Tuesday EDT 15:46:20
+{INFO} - [com.bankapp.main.Main] -     
+Enter the account number of the account you would like to work with today     Mar-23-21 Tuesday EDT 15:46:20
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank!     Mar-23-21 Tuesday EDT 15:55:06
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-23-21 Tuesday EDT 15:55:06
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-23-21 Tuesday EDT 15:55:06
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-23-21 Tuesday EDT 15:55:06
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-23-21 Tuesday EDT 15:55:06
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-23-21 Tuesday EDT 15:55:30
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-23-21 Tuesday EDT 15:55:30
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-23-21 Tuesday EDT 15:55:30
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-23-21 Tuesday EDT 15:55:30
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-23-21 Tuesday EDT 15:55:30
+{INFO} - [com.bankapp.main.Main] -     
+Please enter your user email address     Mar-23-21 Tuesday EDT 15:55:31
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-23-21 Tuesday EDT 15:55:54
+{INFO} - [com.bankapp.main.Main] -     
+Welcome back HERO     Mar-23-21 Tuesday EDT 15:56:07
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-23-21 Tuesday EDT 15:56:07
+{INFO} - [com.bankapp.main.Main] -     1) View My Bank Accounts     Mar-23-21 Tuesday EDT 15:56:07
+{INFO} - [com.bankapp.main.Main] -     2) Open a New Bank Account     Mar-23-21 Tuesday EDT 15:56:07
+{INFO} - [com.bankapp.main.Main] -     3) Log Out     Mar-23-21 Tuesday EDT 15:56:07
+{INFO} - [com.bankapp.main.Main] -     
+Displaying your accounts:     Mar-23-21 Tuesday EDT 15:56:09
+{INFO} - [com.bankapp.main.Main] -     
+Enter the account number of the account you would like to work with today     Mar-23-21 Tuesday EDT 15:56:10
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     Account [accountNumber=100000060, accountType=Pending, status=Closed, balance=0.0, accountId=110, accountDate=2021-03-21, ownerName=ThorOdinson]     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     
+What would you like to do with this account?     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-23-21 Tuesday EDT 15:56:31
+{INFO} - [com.bankapp.main.Main] -     
+Enter the amount you would like to withdraw     Mar-23-21 Tuesday EDT 15:56:33
+{WARN} - [com.bankapp.transaction.dao.impl.TransactionDAOImpl] -     org.postgresql.util.PSQLException: ERROR: new row for relation "account" violates check constraint "account_check"
+  Detail: Failing row contains (110, 100000060, Pending, Closed, -500, 2021-03-21 23:00:19).     Mar-23-21 Tuesday EDT 15:56:39
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Internal error occured please contact SYSADMIN     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     Account [accountNumber=100000060, accountType=Pending, status=Closed, balance=0.0, accountId=110, accountDate=2021-03-21, ownerName=ThorOdinson]     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     
+What would you like to do with this account?     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-23-21 Tuesday EDT 15:56:39
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank!     Mar-23-21 Tuesday EDT 16:00:57
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-23-21 Tuesday EDT 16:00:57
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-23-21 Tuesday EDT 16:00:57
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-23-21 Tuesday EDT 16:00:57
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-23-21 Tuesday EDT 16:00:57
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-23-21 Tuesday EDT 16:01:18
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-23-21 Tuesday EDT 16:01:18
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-23-21 Tuesday EDT 16:01:18
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-23-21 Tuesday EDT 16:01:18
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-23-21 Tuesday EDT 16:01:18
+{INFO} - [com.bankapp.main.Main] -     
+Please enter your user email address     Mar-23-21 Tuesday EDT 16:01:19
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-23-21 Tuesday EDT 16:01:58
+{INFO} - [com.bankapp.main.Main] -     
+Welcome back HERO     Mar-23-21 Tuesday EDT 16:02:03
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-23-21 Tuesday EDT 16:02:03
+{INFO} - [com.bankapp.main.Main] -     1) View My Bank Accounts     Mar-23-21 Tuesday EDT 16:02:03
+{INFO} - [com.bankapp.main.Main] -     2) Open a New Bank Account     Mar-23-21 Tuesday EDT 16:02:03
+{INFO} - [com.bankapp.main.Main] -     3) Log Out     Mar-23-21 Tuesday EDT 16:02:03
+{INFO} - [com.bankapp.main.Main] -     
+Displaying your accounts:     Mar-23-21 Tuesday EDT 16:02:07
+{INFO} - [com.bankapp.main.Main] -     
+Enter the account number of the account you would like to work with today     Mar-23-21 Tuesday EDT 16:02:07
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-23-21 Tuesday EDT 16:02:38
+{INFO} - [com.bankapp.main.Main] -     Account [accountNumber=100000060, accountType=Pending, status=Closed, balance=0.0, accountId=110, accountDate=2021-03-21, ownerName=ThorOdinson]     Mar-23-21 Tuesday EDT 16:02:39
+{INFO} - [com.bankapp.main.Main] -     
+What would you like to do with this account?     Mar-23-21 Tuesday EDT 16:02:39
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-23-21 Tuesday EDT 16:02:39
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-23-21 Tuesday EDT 16:02:39
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-23-21 Tuesday EDT 16:02:39
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-23-21 Tuesday EDT 16:02:39
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-23-21 Tuesday EDT 16:02:39
+{INFO} - [com.bankapp.main.Main] -     
+Enter the amount you would like to withdraw     Mar-23-21 Tuesday EDT 16:02:42
+{WARN} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: Failure to complete transaction     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     Account [accountNumber=100000060, accountType=Pending, status=Closed, balance=0.0, accountId=110, accountDate=2021-03-21, ownerName=ThorOdinson]     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     
+What would you like to do with this account?     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-23-21 Tuesday EDT 16:02:44
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank! "A Super Bank for Super Heroes"     Mar-24-21 Wednesday EDT 00:57:10
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-24-21 Wednesday EDT 00:57:10
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-24-21 Wednesday EDT 00:57:10
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-24-21 Wednesday EDT 00:57:10
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 00:57:10
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 00:57:33
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 00:57:33
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 00:57:33
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 00:57:33
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 00:57:33
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 00:57:35
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 00:57:35
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 00:57:44
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 00:57:53
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 00:58:08
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 00:58:15
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 00:58:25
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid First Name format must be between 3-15 characters only     Mar-24-21 Wednesday EDT 00:58:32
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 00:58:32
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 00:58:32
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 00:58:32
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 00:58:32
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 00:58:32
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 00:58:41
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 00:58:41
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 00:58:48
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 00:58:53
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 00:58:59
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 00:59:08
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 00:59:16
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Last Name format must be between 3-25 characters only     Mar-24-21 Wednesday EDT 00:59:20
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 00:59:20
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 00:59:20
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 00:59:20
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 00:59:20
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 00:59:20
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 00:59:35
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 00:59:35
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 00:59:40
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 00:59:42
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 00:59:49
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 00:59:53
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 00:59:58
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Phone Number format must follow XXX-XXX-XXXX format, exclude country code     Mar-24-21 Wednesday EDT 01:00:01
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:00:01
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:00:01
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:00:01
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:00:01
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:00:01
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:01:07
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:01:07
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:01:09
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:01:13
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:01:18
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:01:29
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:01:34
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Email format     Mar-24-21 Wednesday EDT 01:01:39
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:01:39
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:01:39
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:01:39
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:01:39
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:01:39
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:01:47
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:01:47
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:01:51
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:01:54
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:02:09
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:02:14
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:02:19
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Password format must be between 8-25 characters containing lowercase, uppercase, and numbers     Mar-24-21 Wednesday EDT 01:02:22
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:02:22
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:02:22
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:02:22
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:02:22
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:02:22
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:03:23
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:03:23
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:03:27
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:03:28
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:04:20
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:04:26
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:04:30
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Email format     Mar-24-21 Wednesday EDT 01:04:34
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:04:34
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:04:34
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:04:34
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:04:34
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:04:34
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank! "A Super Bank for Super Heroes"     Mar-24-21 Wednesday EDT 01:04:44
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-24-21 Wednesday EDT 01:04:44
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-24-21 Wednesday EDT 01:04:44
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-24-21 Wednesday EDT 01:04:44
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:04:44
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:05:30
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:05:30
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:05:30
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:05:30
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:05:30
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:05:31
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:05:31
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:05:35
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:05:38
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:05:45
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:05:51
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:05:57
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Address format must be between 3-40 characters only     Mar-24-21 Wednesday EDT 01:06:03
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:06:03
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:06:03
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:06:03
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:06:03
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:06:03
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:06:06
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:06:06
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:06:11
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:06:14
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:06:17
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:07:38
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:07:42
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Address format must be between 3-40 characters only     Mar-24-21 Wednesday EDT 01:07:45
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:07:45
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:07:45
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:07:45
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:07:45
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:07:45
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:09:59
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:09:59
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:10:09
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:10:12
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:10:18
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:10:24
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:10:29
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Address format must be between 3-40 characters only     Mar-24-21 Wednesday EDT 01:10:33
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:10:33
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:10:33
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:10:33
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:10:33
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:10:33
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank! "A Super Bank for Super Heroes"     Mar-24-21 Wednesday EDT 01:11:39
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-24-21 Wednesday EDT 01:11:39
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-24-21 Wednesday EDT 01:11:39
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-24-21 Wednesday EDT 01:11:39
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:11:39
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:11:44
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:11:44
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:11:44
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:11:44
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:11:44
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:11:45
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:11:45
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:11:49
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:11:51
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:11:56
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:12:02
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:12:06
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Password format must be between 8-25 characters containing lowercase, uppercase, and numbers     Mar-24-21 Wednesday EDT 01:12:08
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:12:08
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:12:08
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:12:08
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:12:08
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:12:08
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:12:34
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:12:34
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:12:36
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:12:38
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:12:46
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:12:50
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:12:57
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid First Name format must be between 3-15 characters only     Mar-24-21 Wednesday EDT 01:13:00
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:13:00
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:13:00
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:13:00
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:13:00
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:13:00
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:14:10
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:14:10
+{INFO} - [com.bankapp.main.Main] -     Enter your last name     Mar-24-21 Wednesday EDT 01:14:13
+{INFO} - [com.bankapp.main.Main] -     Enter your address     Mar-24-21 Wednesday EDT 01:14:16
+{INFO} - [com.bankapp.main.Main] -     Enter your phone number (XXX-XXX-XXXX)     Mar-24-21 Wednesday EDT 01:14:23
+{INFO} - [com.bankapp.main.Main] -     Enter your email address     Mar-24-21 Wednesday EDT 01:14:29
+{INFO} - [com.bankapp.main.Main] -     Provide a password to complete account     Mar-24-21 Wednesday EDT 01:14:37
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.LoginException: Invalid Address format must be less than 40 characters     Mar-24-21 Wednesday EDT 01:14:42
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:14:42
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:14:42
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:14:42
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:14:42
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:14:42
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank! "A Super Bank for Super Heroes"     Mar-24-21 Wednesday EDT 01:17:40
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-24-21 Wednesday EDT 01:17:40
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-24-21 Wednesday EDT 01:17:40
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-24-21 Wednesday EDT 01:17:40
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:17:40
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:17:52
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:17:52
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:17:52
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:17:52
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:17:52
+{INFO} - [com.bankapp.main.Main] -     
+Creating a new CUSTOMER ACCOUNT     Mar-24-21 Wednesday EDT 01:17:53
+{INFO} - [com.bankapp.main.Main] -     Enter your first name     Mar-24-21 Wednesday EDT 01:17:53
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Marvel Bank! "A Super Bank for Super Heroes"     Mar-24-21 Wednesday EDT 01:19:12
+{INFO} - [com.bankapp.main.Main] -     -------------------------     Mar-24-21 Wednesday EDT 01:19:12
+{INFO} - [com.bankapp.main.Main] -     1) Customer Login     Mar-24-21 Wednesday EDT 01:19:12
+{INFO} - [com.bankapp.main.Main] -     2) Employee Login     Mar-24-21 Wednesday EDT 01:19:12
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:19:12
+{INFO} - [com.bankapp.main.Main] -     
+Welcome to Customer Login     Mar-24-21 Wednesday EDT 01:19:28
+{INFO} - [com.bankapp.main.Main] -     Please choose one of the following options     Mar-24-21 Wednesday EDT 01:19:28
+{INFO} - [com.bankapp.main.Main] -     1) Login     Mar-24-21 Wednesday EDT 01:19:28
+{INFO} - [com.bankapp.main.Main] -     2) Create an Account     Mar-24-21 Wednesday EDT 01:19:28
+{INFO} - [com.bankapp.main.Main] -     3) Exit     Mar-24-21 Wednesday EDT 01:19:28
+{INFO} - [com.bankapp.main.Main] -     
+Please enter your user email address     Mar-24-21 Wednesday EDT 01:19:32
+{INFO} - [com.bankapp.main.Main] -     Please enter your password     Mar-24-21 Wednesday EDT 01:19:40
+{INFO} - [com.bankapp.main.Main] -     
+Welcome back HERO     Mar-24-21 Wednesday EDT 01:19:45
+{INFO} - [com.bankapp.main.Main] -     What would you like to do today?     Mar-24-21 Wednesday EDT 01:19:45
+{INFO} - [com.bankapp.main.Main] -     1) View My Bank Accounts     Mar-24-21 Wednesday EDT 01:19:45
+{INFO} - [com.bankapp.main.Main] -     2) Open a New Bank Account     Mar-24-21 Wednesday EDT 01:19:45
+{INFO} - [com.bankapp.main.Main] -     3) Log Out     Mar-24-21 Wednesday EDT 01:19:45
+{INFO} - [com.bankapp.main.Main] -     
+Displaying your accounts:     Mar-24-21 Wednesday EDT 01:19:48
+{INFO} - [com.bankapp.main.Main] -     
+Enter the account number of the account you would like to work with today     Mar-24-21 Wednesday EDT 01:19:48
+{INFO} - [com.bankapp.main.Main] -     Displaying account details :     Mar-24-21 Wednesday EDT 01:20:02
+{ERROR} - [com.bankapp.main.Main] -     com.bankapp.exception.BankException: The entered Account Number: 100000040 is invalid     Mar-24-21 Wednesday EDT 01:20:02
+{INFO} - [com.bankapp.main.Main] -     
+What would you like to do with this account?     Mar-24-21 Wednesday EDT 01:20:02
+{INFO} - [com.bankapp.main.Main] -     1) Withdrawal     Mar-24-21 Wednesday EDT 01:20:02
+{INFO} - [com.bankapp.main.Main] -     2) Deposit     Mar-24-21 Wednesday EDT 01:20:02
+{INFO} - [com.bankapp.main.Main] -     3) Transfer     Mar-24-21 Wednesday EDT 01:20:02
+{INFO} - [com.bankapp.main.Main] -     4) Transaction History     Mar-24-21 Wednesday EDT 01:20:02
+{INFO} - [com.bankapp.main.Main] -     5) Return     Mar-24-21 Wednesday EDT 01:20:02

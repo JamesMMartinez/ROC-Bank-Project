@@ -6,12 +6,14 @@ import java.util.Scanner;
 
 import org.apache.log4j.Logger;
 
+import com.bankapp.account.dao.AccountDAO;
+import com.bankapp.account.dao.impl.AccountDAOImpl;
 import com.bankapp.account.model.Account;
-import com.bankapp.account.model.Customer;
 import com.bankapp.account.service.AccountService;
-import com.bankapp.account.service.CustomerService;
 import com.bankapp.account.service.impl.AccountServiceImpl;
-import com.bankapp.account.service.impl.CustomerServiceImpl;
+import com.bankapp.customer.model.Customer;
+import com.bankapp.customer.service.CustomerService;
+import com.bankapp.customer.service.impl.CustomerServiceImpl;
 import com.bankapp.employee.dao.EmployeeDAO;
 import com.bankapp.employee.dao.impl.EmployeeDAOImpl;
 import com.bankapp.employee.model.Employee;
@@ -30,12 +32,13 @@ public class Main {
 		int outerOption = 0;
 		Scanner scan=new Scanner(System.in);
 		EmployeeDAO empService = new EmployeeDAOImpl();
+		AccountDAO accDAO = new AccountDAOImpl();
 		CustomerService custService = new CustomerServiceImpl();
 		AccountService accService = new AccountServiceImpl();
 		TransactionService tranService = new TransactionServiceImpl();
 		
 		do {
-			log.info("\nWelcome to Marvel Bank!");             //MAIN MENU
+			log.info("\nWelcome to Marvel Bank! \"A Super Bank for Super Heroes\"");             //MAIN MENU
 			log.info("-------------------------");
 			log.info("1) Customer Login");
 			log.info("2) Employee Login");
@@ -69,16 +72,16 @@ public class Main {
 						while(check == 0) {                                      //CUSTOMER LOGIN 
 							
 							if (custService.custLogin(email, password)==false) {
-								log.info("The email and password did not match please try again");
+								log.warn("The email and password did not match please try again");
 							}else {
 								check=1;
 							}
 						}
 					} catch (LoginException e) {
-						log.info(e);
+						log.error(e);
 					}
 	                 
-					int accountId = accService.getIdByEmailPassword(email, password);
+					int accountId = accDAO.getIdByEmailPassword(email, password);
 					                                                             
 					int subOption=0;
 					
@@ -102,7 +105,7 @@ public class Main {
 								System.out.println(accList.get(i));
 							}
 						} catch (BankException e) {
-							log.warn(e);
+							log.error(e);
 						}
 						log.info("\nEnter the account number of the account you would like to work with today");  //MAKE THIS SO YOU CANT WORK WITH PENDING(VALIDATIONS)
 						int accountNumber = Integer.parseInt(scan.nextLine());
@@ -113,7 +116,7 @@ public class Main {
 						try {
 							log.info(accService.getBankAccByNum(accountNumber));
 						} catch (BankException e) {
-							log.warn(e);
+							log.error(e);
 						}
 						log.info("\nWhat would you like to do with this account?");
 						log.info("1) Withdrawal");
@@ -137,7 +140,7 @@ public class Main {
 								tranService.performWithdrawal(transactionW);
 								log.info("Withdrawal Successful");
 							} catch (BankException e) {
-								log.warn(e);;
+								log.error(e);
 							}
 						
 
@@ -152,7 +155,7 @@ public class Main {
 								tranService.performDeposit(transactionD);
 								log.info("Deposit Successful");
 							} catch (BankException e) {
-								log.warn(e);;
+								log.error(e);
 							}
 							
 
@@ -169,7 +172,7 @@ public class Main {
 								tranService.performTransfer(transactionT, accountNumber2);
 								log.info("Transfer Successful");
 							} catch (BankException e) {
-								log.warn(e);;
+								log.error(e);
 							}
 							
 
@@ -184,7 +187,7 @@ public class Main {
 									log.info(transList0.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 
 							break; 
@@ -193,7 +196,7 @@ public class Main {
 							break;
 
 						default:
-							log.info("Please enter only a number between 1-5");
+							log.warn("Please enter only a number between 1-5");
 							break;
 						}
 						}while(subOption2!=5);
@@ -211,7 +214,7 @@ public class Main {
 							try {
 								accService.openNewBankAcc(account, accountId);
 							} catch (BankException e) {
-								log.info(e);
+								log.error(e);
 							}
 							log.info("Checkings account created successfully, please allow 2-3 business days for approval");
 						}else if(choice==2){
@@ -219,11 +222,11 @@ public class Main {
 							try {
 								accService.openNewBankAcc(account, accountId);
 							} catch (BankException e) {
-								log.info(e);
+								log.error(e);
 							}
 							log.info("Savings account created successfully, please allow 2-3 business days for approval");
 						}else {
-							log.info("Please only choose from the options provided");
+							log.warn("Please only choose from the options provided");
 						}
 
 						break;
@@ -262,7 +265,7 @@ public class Main {
 							log.info("Login through the customer login menu and follow the steps to open your first account!");
 						}
 					} catch (LoginException e) {
-					log.warn(e);
+					log.error(e);
 					}
 					break;
 				case 3:
@@ -271,7 +274,7 @@ public class Main {
 					break;
 
 				default:
-					log.info("Please enter a number 1-3 ONLY");
+					log.warn("Please enter a number 1-3 ONLY");
 					break;
 				}
 				}while(option!=3);
@@ -335,7 +338,7 @@ public class Main {
 							try {
 								findCustomer=custService.getCustomerAccByid(accountId);
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							
 							log.info("The account matching that ID is displayed below: ");
@@ -354,7 +357,7 @@ public class Main {
 									System.out.println(custList.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							
 							
@@ -368,7 +371,7 @@ public class Main {
 									log.info(custList2.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 
 							break;
@@ -380,7 +383,7 @@ public class Main {
 							try {
 								getCustomer=custService.getCustomerAccByid(accountId2);
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							
 							log.info("\nThe account matching that ID is displayed below: ");
@@ -400,13 +403,13 @@ public class Main {
 							try {
 								custService.updateCustomerAccByid(accountId2, choice, update);
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							
 							try {
 								getCustomer=custService.getCustomerAccByid(accountId2);
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							log.info("The updated customer account is displayed below: ");
 							log.info(getCustomer);
@@ -437,7 +440,7 @@ public class Main {
 									log.info(customer);
 								}
 							} catch (LoginException e) {
-								System.out.println(e.getMessage());
+								log.error(e);;
 							}
 
 							break;
@@ -449,7 +452,7 @@ public class Main {
 							try {
 								deleteCustomer=custService.getCustomerAccByid(accountId3);
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							if (deleteCustomer.getAccountid() != 0) {
 								log.info("The customer account is displayed below: ");
@@ -462,7 +465,7 @@ public class Main {
 									try {
 										custService.deleteCustomerAccByid(accountId3);
 									} catch (BankException e) {
-										log.warn(e);
+										log.error(e);
 										;
 									}
 									log.warn("The account was deleted successfully");
@@ -473,7 +476,7 @@ public class Main {
 								}
 								;
 							}else {
-								log.info("An account with that account ID does not exist"); //untested
+								log.warn("An account with that account ID does not exist"); //untested
 							}
 							break;
 							//ADD FEATURE TO CHECK IF ACCOUNT HAS OPENED BANK ACCOUNTS
@@ -483,7 +486,7 @@ public class Main {
 							break;
 
 						default:
-							log.info("Only choose between options 1-7");
+							log.warn("Only choose between options 1-7");
 							break;
 						}
 					} while (subOption2 != 7);
@@ -510,7 +513,7 @@ public class Main {
 							try {
 								log.info(accService.getBankAccByNum(accountNumber));
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							break;
 						case 2:
@@ -523,7 +526,7 @@ public class Main {
 									log.info(accListid.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							break;
 						case 3:
@@ -535,7 +538,7 @@ public class Main {
 									log.info(accList.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 
 							break;
@@ -554,7 +557,7 @@ public class Main {
 							}else if(choice==3) {
 								status = "Pending";
 							}else {
-								log.info("Please choose an appropriate number option from the choices");
+								log.warn("Please choose an appropriate number option from the choices");
 							}
 							if (status != null) {
 								try {
@@ -564,7 +567,7 @@ public class Main {
 										log.info(accList2.get(i));
 									}
 								} catch (BankException e) {
-									log.warn(e);
+									log.error(e);
 								}
 							}
 							
@@ -578,7 +581,7 @@ public class Main {
 								try {
 									accService.updateBankAccountStatus(accountNumber, "Closed");
 								} catch (BankException e) {
-									log.warn(e);
+									log.error(e);
 								}
 								log.info("The account was closed successfully");
 							}else if(choice == 2) {
@@ -588,11 +591,11 @@ public class Main {
 									accService.updateBankAccountStatus(accountNumber, "Open");
 									accService.updateBankAccountNumber(accountNumber, newAccountNumber);
 								} catch (BankException e) {
-									log.warn(e);
+									log.error(e);
 								}
 								log.info("The account was approved and opened successfully");
 							}else {
-								log.info("Please choose only option 1 or option 2");
+								log.warn("Please choose only option 1 or option 2");
 							}
 							
 							break;
@@ -607,11 +610,11 @@ public class Main {
 								if (deletion==1) {
 									log.info("The account was deleted successfully");
 								}else {
-									log.info("The account was not deleted");
-									log.info("Make sure the account number is correct and the account is CLOSED");
+									log.warn("The account was not deleted");
+									log.warn("Make sure the account number is correct and the account is CLOSED");
 								}
 							} catch (BankException e) {
-								log.info(e);
+								log.error(e);
 							}
 							
 							break;
@@ -620,7 +623,7 @@ public class Main {
 							break;
 
 						default:
-							log.info("Only choose between options 1-6");
+							log.warn("Only choose between options 1-6");
 							break;
 						}
 					}while(subOption3!=6);
@@ -650,7 +653,7 @@ public class Main {
 									log.info(transList0.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							break;
 						case 2:
@@ -664,7 +667,7 @@ public class Main {
 									log.info(transList1.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							break;
 						case 3:
@@ -676,7 +679,7 @@ public class Main {
 									log.info(transList2.get(i));
 								}
 							} catch (BankException e) {
-								log.warn(e);
+								log.error(e);
 							}
 							break;
 						case 4: //EXIT
@@ -684,7 +687,7 @@ public class Main {
 							break;
 
 						default:
-							log.info("Only choose between options 1-4");
+							log.warn("Only choose between options 1-4");
 							break;
 						}
 					} while (subOption4 != 4);
@@ -696,7 +699,7 @@ public class Main {
 					break;
 
 				default:
-					log.info("Please only enter a number 1-4");
+					log.warn("Please only enter a number 1-4");
 					break;
 				}
 				}while(subOption!=4);
@@ -708,7 +711,7 @@ public class Main {
 				break;
 
 			default:
-				log.info("Please only enter a number 1-3");
+				log.warn("Please only enter a number 1-3");
 				break;
 			}
 

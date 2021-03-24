@@ -43,14 +43,14 @@ public class TransactionDAOImpl implements TransactionDAO{
 			connection.commit();
 		} catch (ClassNotFoundException | SQLException e) {
 			try {
-				log.warn(e);
+				log.debug(e);
 				connection.rollback();
 				log.debug("rollback success");
 			} catch (SQLException e1) {
 				log.debug("unable to rollback");
 			}
-			throw new BankException("Internal error occured please contact SYSADMIN");
-		}//can add new catch to throw new business exception specific to sqlexception
+			throw new BankException("Failure to complete Withdrawal there may be insufficient funds");
+		}
 		return ar;
 	}
 	
@@ -79,14 +79,14 @@ public class TransactionDAOImpl implements TransactionDAO{
 			connection.commit();
 		} catch (ClassNotFoundException | SQLException e) {
 			try {
-				log.warn(e);
+				log.debug(e);
 				connection.rollback();
 				log.debug("rollback success");
 			} catch (SQLException e1) {
 				log.debug("unable to rollback");
 			}
-			throw new BankException("Internal error occured please contact SYSADMIN");
-		}//can add new catch to throw new business exception specific to sqlexception
+			throw new BankException("Failure to complete Deposit");
+		}
 		return ar;
 	}
 
@@ -123,14 +123,14 @@ public class TransactionDAOImpl implements TransactionDAO{
 			connection.commit();
 		} catch (ClassNotFoundException | SQLException e) {
 			try {
-				log.warn(e);
+				log.debug(e);
 				connection.rollback();
 				log.debug("rollback success");
 			} catch (SQLException e1) {
 				log.debug("unable to rollback");
 			}
-			throw new BankException("Internal error occured please contact SYSADMIN");
-		}//can add new catch to throw new business exception specific to sqlexception
+			throw new BankException("Failure to complete Transfer there may be insufficient funds");
+		}
 		return ar;
 	}
 
@@ -157,8 +157,8 @@ public class TransactionDAOImpl implements TransactionDAO{
 				throw new BankException("There are currently no transactions with this account id");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
-			throw new BankException("internal error");
+			log.debug(e);
+			throw new BankException("Internal error the proccess could not be completed");
 		}
 		return tranList;
 	}
@@ -184,9 +184,9 @@ public class TransactionDAOImpl implements TransactionDAO{
 				throw new BankException("There are currently no transactions with this account number");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
-			throw new BankException("internal error");
-		}
+			log.debug(e);
+			throw new BankException("Internal error the proccess could not be completed");
+		} //add new catches for bank exceptions
 		return tranList;
 	}
 
@@ -209,8 +209,8 @@ public class TransactionDAOImpl implements TransactionDAO{
 				throw new BankException("There are currently no transactions in the database");
 			}
 		} catch (ClassNotFoundException | SQLException e) {
-			log.error(e);
-			throw new BankException("internal error");
+			log.debug(e);
+			throw new BankException("Internal error the proccess could not be completed");
 		}
 		return tranList;
 	}
