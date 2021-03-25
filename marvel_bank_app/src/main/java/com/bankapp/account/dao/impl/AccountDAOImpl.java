@@ -206,7 +206,7 @@ public class AccountDAOImpl implements AccountDAO {
 		int c = 0;
 		try (Connection connection = PostgresConnection.getConnection()) {
 			
-			String sql = "update bank_schema.account set status = ? where accountnumber= ?";
+			String sql = "update bank_schema.account set status = ? where accountnumber= ? and amount = 0";
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			preparedStatement.setInt(2, accountNumber);
 			preparedStatement.setString(1, newStatus);

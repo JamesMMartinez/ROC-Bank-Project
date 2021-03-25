@@ -1,0 +1,52 @@
+package com.bankapp.customer.service.impl;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+class CustomerValidationsTest {
+	
+	private static CustomerValidations cValidations;
+	
+	@BeforeAll
+	public static void setUpService() {
+		cValidations=new CustomerValidations();
+	}
+
+	@Test
+	void testIsValidEmailWithAt() {
+		assertEquals(true, cValidations.isValidEmail("hello@gmail.com"));
+	}
+
+	@Test
+	void testIsValidCustPassword() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsValidCustFirstname() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsValidCustLastname() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsValidAddress() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsValidCustNumber() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsValidAccountId() {
+		fail("Not yet implemented");
+	}
+
+}

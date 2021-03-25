@@ -103,7 +103,14 @@ public class TransactionDAOImpl implements TransactionDAO{
 			
 			PreparedStatement preparedStatement = connection.prepareStatement(sql1);
 			preparedStatement.setInt(1, transaction.getAccountnumber());
-			preparedStatement.setString(2, "Transfer  ");
+			preparedStatement.setString(2, "Transfer- ");
+			preparedStatement.setInt(3, transaction.getAmount());
+			preparedStatement.addBatch();
+			ar = preparedStatement.executeUpdate();
+			
+			preparedStatement = connection.prepareStatement(sql1);
+			preparedStatement.setInt(1, accountNumber2);
+			preparedStatement.setString(2, "Transfer+ ");
 			preparedStatement.setInt(3, transaction.getAmount());
 			preparedStatement.addBatch();
 			ar = preparedStatement.executeUpdate();
@@ -129,7 +136,7 @@ public class TransactionDAOImpl implements TransactionDAO{
 			} catch (SQLException e1) {
 				log.debug("unable to rollback");
 			}
-			throw new BankException("Failure to complete Transfer there may be insufficient funds");
+			throw new BankException("Failure to complete Transfer there may be insufficient funds or incorrect Account Number");
 		}
 		return ar;
 	}
@@ -194,7 +201,7 @@ public class TransactionDAOImpl implements TransactionDAO{
 	public List<Transaction> listAllTransactions() throws BankException {
 		List<Transaction> tranList = new ArrayList<>();
 		try (Connection connection = PostgresConnection.getConnection()) {
-			String sql = "select accountnumber, type, amount, timestamp from bank_schema.transactions";		
+			String sql = "select accountnumber, type, amount, timestamp from bank_schema.transactions order by timestamp";		
 			PreparedStatement preparedStatement = connection.prepareStatement(sql);
 			ResultSet resultSet=preparedStatement.executeQuery();
 			while(resultSet.next()) {

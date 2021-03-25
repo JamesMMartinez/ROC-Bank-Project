@@ -11,7 +11,7 @@ public class CustomerValidations { //validations complete but not tested
 	}
 	
 	public static boolean isValidCustPassword(String password) {
-		if (password != null && password.matches("{8,25}") && password.contains("[0-9a-zA-Z]")) {
+		if (password != null && password.matches("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)[a-zA-Z\\d]{8,}$")){ //  && password.length() >= 8) { 
 			return true;
 		} else {
 			return false;
@@ -20,7 +20,7 @@ public class CustomerValidations { //validations complete but not tested
 	}
 	
 	public static boolean isValidCustFirstname(String firstname) {
-		if (firstname != null && firstname.matches("[a-zA-Z]{3,15}")) {
+		if (firstname != null && firstname.matches("[A-Z]{1,1}[a-z]{3,15}")) {
 			return true;
 		} else {
 			return false;
@@ -29,7 +29,7 @@ public class CustomerValidations { //validations complete but not tested
 	}
 	
 	public static boolean isValidCustLastname(String lastname) {
-		if (lastname != null && lastname.matches("[a-zA-Z]{3,25}")) {
+		if (lastname != null && lastname.matches("[A-Z]{1,1}[a-z]{3,25}")) {
 			return true;
 		} else {
 			return false;
@@ -38,7 +38,7 @@ public class CustomerValidations { //validations complete but not tested
 	}
 	
 	public static boolean isValidAddress(String address) {
-		if (address != null && address.matches("[0-9a-zA-z]{3,40}")) {
+		if (address != null && address.length() >= 5 && address.length() < 40) {
 			return true;
 		} else {
 			return false;
@@ -57,9 +57,9 @@ public class CustomerValidations { //validations complete but not tested
 	
 	public static boolean isValidAccountId(int accountId) {
 		if (accountId < 2000 && accountId > 100 && accountId%10 == 0) {
-			return false;
-		} else {
 			return true;
+		} else {
+			return false;
 		}
 
 	}

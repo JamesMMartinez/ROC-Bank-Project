@@ -14,9 +14,9 @@ public class AccountServiceImpl implements AccountService{
 
 	@Override
 	public int openNewBankAcc(Account account, int accountId) throws BankException {
-		if(!AccountValidations.isValidAccountId(account.getAccountId())) {
-			throw new BankException("The Account ID: "+account.getAccountId()+" is invalid");
-		}
+//		if(!AccountValidations.isValidAccountId(account.getAccountId())) {
+//			throw new BankException("The Account ID: "+account.getAccountId()+" is invalid");
+//		}
 		return accDAO.openNewBankAcc(account, accountId);
 	}
 

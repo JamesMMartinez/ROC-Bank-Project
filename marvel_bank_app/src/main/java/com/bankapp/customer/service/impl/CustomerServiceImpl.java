@@ -16,22 +16,22 @@ public class CustomerServiceImpl implements CustomerService{
 	@Override
 	public int createNewCustAcc(Customer customer) throws LoginException {
 		if(!CustomerValidations.isValidCustFirstname(customer.getFirstName())) {
-			throw new LoginException("Invalid First Name format must be between 3-15 characters only");
+			throw new LoginException("Invalid First Name format must be between 3-15 characters starting with capital");
 		}
 		if(!CustomerValidations.isValidCustLastname(customer.getLastName())) {
-			throw new LoginException("Invalid Last Name format must be between 3-25 characters only");
+			throw new LoginException("Invalid Last Name format must be between 3-25 characters starting with capital");
 		}
 		if(!CustomerValidations.isValidAddress(customer.getAddress())) {
-			throw new LoginException("Invalid Address format must be less than 40 characters");
+			throw new LoginException("Invalid Address format must be betweem 5-40 characters");
 		}
 		if(!CustomerValidations.isValidCustNumber(customer.getNumber())) {
 			throw new LoginException("Invalid Phone Number format must follow XXX-XXX-XXXX format, exclude country code");
 		}
 		if(!CustomerValidations.isValidEmail(customer.getEmail())) {
-			throw new LoginException("Invalid Email format");
+			throw new LoginException("Invalid Email format be sure email exists");
 		}
-		if(!CustomerValidations.isValidCustPassword(customer.getFirstName())) {
-			throw new LoginException("Invalid Password format must be between 8-25 characters containing lowercase, uppercase, and numbers");
+		if(!CustomerValidations.isValidCustPassword(customer.getPassword())) {
+			throw new LoginException("Invalid Password format must be at least 8 characters containing at least one lowercase, uppercase, and number");
 		}
 		
 		return custDAO.createNewCustAcc(customer);
@@ -76,7 +76,7 @@ public class CustomerServiceImpl implements CustomerService{
 	@Override
 	public List<Customer> listCustByLastName(String lastName) throws BankException{
 		if(!CustomerValidations.isValidCustLastname(lastName)){
-			throw new BankException("Invalid Last Name format must be between 3-25 characters only");
+			throw new BankException("Invalid Last Name format must be between 3-25 characters starting with capital");
 		}
 		return custDAO.listCustByLastName(lastName);
 	}

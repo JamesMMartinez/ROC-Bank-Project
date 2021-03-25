@@ -1,0 +1,76 @@
+package com.bankapp.customer.service.impl;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+class CustomerValidationsTest {
+
+
+	@Test
+	void testIsValidEmailWithAt() {
+		assertEquals(true, CustomerValidations.isValidEmail("hello@gmail.com"));
+	}
+	
+	@Test
+	void testIsValidEmailWithoutAt() {
+		assertEquals(false, CustomerValidations.isValidEmail("hellogmail.com"));
+	}
+
+	@Test
+	void testIsValidCustPasswordNoUpperNoNumber() {
+		assertEquals(false, CustomerValidations.isValidCustPassword("password"));
+	}
+	
+	@Test
+	void testIsValidCustPasswordNoUpper() {
+		assertEquals(false, CustomerValidations.isValidCustPassword("password1"));
+	}
+	
+	@Test
+	void testIsValidCustPasswordNoNumber() {
+		assertEquals(false, CustomerValidations.isValidCustPassword("Password"));
+	}
+	
+	@Test
+	void testIsValidCustPasswordUpperAndNumber() {
+		assertEquals(true, CustomerValidations.isValidCustPassword("Password1"));
+	}
+
+	@Test
+	void testIsValidCustFirstnameTooLong() {
+		assertEquals(false, CustomerValidations.isValidCustFirstname("Jamesjamesjamesjames"));
+	}
+	
+	@Test
+	void testIsValidCustFirstname() {
+		assertEquals(true, CustomerValidations.isValidCustFirstname("James"));
+	}
+
+	@Test
+	void testIsValidCustLastnameTooLong() {
+		assertEquals(false, CustomerValidations.isValidCustLastname("Martinezmartinezmartinezmartinez"));
+	}
+	
+	@Test
+	void testIsValidCustLastname() {
+		assertEquals(false, CustomerValidations.isValidCustLastname("Martinez"));
+	}
+
+	@Test
+	void testIsValidAddress() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsValidCustNumber() {
+		fail("Not yet implemented");
+	}
+
+	@Test
+	void testIsValidAccountId() {
+		fail("Not yet implemented");
+	}
+
+}

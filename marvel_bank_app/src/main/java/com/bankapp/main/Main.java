@@ -38,11 +38,13 @@ public class Main {
 		TransactionService tranService = new TransactionServiceImpl();
 		
 		do {
-			log.info("\nWelcome to Marvel Bank! \"A Super Bank for Super Heroes\"");             //MAIN MENU
-			log.info("-------------------------");
+			log.info("\n=============================================");
+			log.info("Welcome to the Marvel Bank App V1.0! \nMarvel Bank: \"A Super Bank for Super Heroes!\"");  //MAIN MENU
+			log.info("=============================================");
 			log.info("1) Customer Login");
 			log.info("2) Employee Login");
 			log.info("3) Exit");
+			log.info("=============================================");
 			try {
 				outerOption=Integer.parseInt(scan.nextLine());
 			}catch(NumberFormatException e) {}
@@ -52,78 +54,89 @@ public class Main {
 				int option=0;
 				
 				do{
-				log.info("\nWelcome to Customer Login");                        //CUSTOMER LOGIN SUB MENU
+				log.info("\n===========================================");
+				log.info("Welcome to Customer Login");                        //CUSTOMER LOGIN SUB MENU
 				log.info("Please choose one of the following options");
+				log.info("===========================================");
 				log.info("1) Login");
 				log.info("2) Create an Account");
 				log.info("3) Exit");
+				log.info("===========================================");
 				try {
 					option=Integer.parseInt(scan.nextLine());
 				}catch(NumberFormatException e) {}
 				
 				switch (option) {
 				case 1:
-					int check = 0;
-					log.info("\nPlease enter your user email address");
+					log.info("\nPlease enter your user email address");        //CUSTOMER LOGIN
 					String email=scan.nextLine();
 					log.info("Please enter your password");
 					String password=scan.nextLine();
-					try {
-						while(check == 0) {                                      //CUSTOMER LOGIN 
-							
+					try {                                    
 							if (custService.custLogin(email, password)==false) {
 								log.warn("The email and password did not match please try again");
-							}else {
-								check=1;
-							}
+								break;
 						}
 					} catch (LoginException e) {
 						log.error(e);
 					}
 	                 
-					int accountId = accDAO.getIdByEmailPassword(email, password);
+					int accountId = accDAO.getIdByEmailPassword(email, password); //Gets ID for other processes
 					                                                             
 					int subOption=0;
-					
 					do{
-					log.info("\nWelcome back HERO");                         //MAIN CUSTOMER MENU
+					log.info("\n==================================");
+					log.info("Welcome back HERO!");                         //MAIN CUSTOMER MENU
 					log.info("What would you like to do today?");
+					log.info("==================================");
 					log.info("1) View My Bank Accounts");
 					log.info("2) Open a New Bank Account");
 					log.info("3) Log Out");
+					log.info("==================================");
 					try {
 						subOption=Integer.parseInt(scan.nextLine());
 					}catch(NumberFormatException e) {}
 					
 					switch (subOption) {
 					case 1:
-						log.info("\nDisplaying your accounts:");
 						List<Account> accList;
 						try {
+							log.info("\nDisplaying your accounts:");    //VIEW BANK ACCOUNTS
+							log.info("==============================================================================================================================");
 							accList = accService.listBankAccById(accountId);
 							for(int i=0;i<accList.size();i++) {
 								System.out.println(accList.get(i));
 							}
 						} catch (BankException e) {
 							log.error(e);
+							break;
 						}
-						log.info("\nEnter the account number of the account you would like to work with today");  //MAKE THIS SO YOU CANT WORK WITH PENDING(VALIDATIONS)
-						int accountNumber = Integer.parseInt(scan.nextLine());
+						log.info("==============================================================================================================================");
 						
+						log.info("\nEnter the account number of the account you would like to work with today");  
+						int accountNumber = Integer.parseInt(scan.nextLine());
 						int subOption2=0;
 						do{
-						log.info("Displaying account details :");                        //MY BANK ACCOUNT SUB MENU
+						log.info("\nDisplaying account details :");          
+						log.info("==============================================================================================================================");
 						try {
 							log.info(accService.getBankAccByNum(accountNumber));
 						} catch (BankException e) {
 							log.error(e);
 						}
-						log.info("\nWhat would you like to do with this account?");
+						if(accountNumber%10==0) { //To not allow pending accounts to be used
+							break;
+						}
+						log.info("==============================================================================================================================");
+						log.info("\n==============================================");
+						log.info("What would you like to do with this account?"); //MY BANK ACCOUNT CUSTOMER SUB MENU
+						log.info("==============================================");
 						log.info("1) Withdrawal");
 						log.info("2) Deposit");
 						log.info("3) Transfer");
 						log.info("4) Transaction History");
 						log.info("5) Return");
+						log.info("==============================================");
 						
 						try {
 							subOption2=Integer.parseInt(scan.nextLine());
@@ -132,7 +145,7 @@ public class Main {
 						switch (subOption2) {
 						case 1:
 							Transaction transactionW = new Transaction();
-							log.info("\nEnter the amount you would like to withdraw");
+							log.info("\nEnter the amount you would like to withdraw");  //WITHDRAWAL
 							int amountW = Integer.parseInt(scan.nextLine());
 							transactionW.setAccountnumber(accountNumber);
 							transactionW.setAmount(amountW);
@@ -147,7 +160,7 @@ public class Main {
 							break;
 						case 2:
 							Transaction transactionD = new Transaction();
-							log.info("\nEnter the amount you would like to deposit");
+							log.info("\nEnter the amount you would like to deposit"); //DEPOSIT
 							int amountD = Integer.parseInt(scan.nextLine());
 							transactionD.setAccountnumber(accountNumber);
 							transactionD.setAmount(amountD);
@@ -161,11 +174,14 @@ public class Main {
 
 							break;
 						case 3:
-							Transaction transactionT = new Transaction();
+							Transaction transactionT = new Transaction(); //TRANSFER  
 							log.info("\nEnter the amount you would like to transfer");
 							int amountT = Integer.parseInt(scan.nextLine());
 							log.info("Enter the account number of the account you are transfering to");
 							int accountNumber2 = Integer.parseInt(scan.nextLine());
+							if(accountNumber2%10==0) {
+								log.warn("You CANNOT transfer to a PENDING acount");     //Cannot transfer to PENDING account
+							}
 							transactionT.setAccountnumber(accountNumber);
 							transactionT.setAmount(amountT);
 							try {
@@ -178,14 +194,16 @@ public class Main {
 
 							break;
 						case 4:
-							log.info("\nTransaction History");;
+							log.info("\nTransaction History");;               //TRANSACTION HISTORY
 							List<Transaction> transList0;
 							try {
 								log.info("Displaying the transaction History of the current account:");
+								log.info("==============================================================================================================================");
 								transList0 = tranService.listTransactionByAccNum(accountNumber); 
 								for (int i = 0; i < transList0.size(); i++) {
 									log.info(transList0.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
@@ -203,11 +221,14 @@ public class Main {
 						
 						break;
 					case 2:
-						log.info("\nOpening a NEW BANK account:");
+						log.info("\nOpening a NEW BANK account:");                       //CUSTOMER OPEN NEW BANK ACCOUNT
 						Account account = new Account();
-						log.info("Please choose the account type you would like to open :");
+						log.info("=======================================================");
+						log.info("Please select the account type you would like to open");
+						log.info("=======================================================");
 						log.info("1) Checkings");
 						log.info("2) Savings");
+						log.info("=======================================================");
 						int choice=Integer.parseInt(scan.nextLine());
 						if(choice==1) {
 							account.setAccountType("Checkings");
@@ -231,9 +252,11 @@ public class Main {
 
 						break;
 					case 3:
-						log.info("\nThank you for banking with Marvel Bank! Continue being HEROIC!");
+						log.info("\nThank you for banking with Marvel Bank! Continue being HEROIC!"); //CUSTOMER LOGOUT
+						break;
 
 					default:
+						log.warn("Please choose only an option between 1-3");
 						break;
 					}
 					
@@ -241,7 +264,7 @@ public class Main {
 					
 					break;
 				case 2:
-					log.info("\nCreating a new CUSTOMER ACCOUNT");  //CREATE NEW ACCOUNT
+					log.info("\nCreating a new CUSTOMER ACCOUNT");  //CREATE NEW CUSTOMER ACCOUNT
 					Customer customer=new Customer();
 					log.info("Enter your first name");
 					customer.setFirstName(scan.nextLine());
@@ -260,7 +283,9 @@ public class Main {
 					try {
 						if(custService.createNewCustAcc(customer)==1) {
 							log.info("\nRegistered successfully with below details: ");
+							log.info("==============================================================================================================================");
 							log.info(customer);
+							log.info("==============================================================================================================================");
 							log.info("Thank you for creating an account with us!");
 							log.info("Login through the customer login menu and follow the steps to open your first account!");
 						}
@@ -269,7 +294,7 @@ public class Main {
 					}
 					break;
 				case 3:
-					log.info("Exiting to main menu");
+					log.info("Exiting to Main Menu");   //EXIT
 					
 					break;
 
@@ -281,8 +306,9 @@ public class Main {
 
 				break;
 			case 2:
-				log.info("\nWelcome to Employee Login");                         //EMPLOYEE LOGIN
-				
+				log.info("\n===========================");
+				log.info("Welcome to Employee Login");                         //EMPLOYEE LOGIN
+				log.info("===========================");
 				int check = 0;
 				Employee employee = new Employee();
 
@@ -304,11 +330,14 @@ public class Main {
 				int subOption=0;
 				
 				do{
-				log.info("\nWelcome back! How will you be a HERO today?"); //EMPLOYEE MAIN MENU
+				log.info("\n=============================================");
+				log.info("Welcome back! How will you be a HERO today?"); //EMPLOYEE MAIN MENU
+				log.info("=============================================");
 				log.info("1) Manage Customer Accounts");
 				log.info("2) Manage Bank Accounts");
 				log.info("3) Manage Transactions");
 				log.info("4) Log Out");
+				log.info("=============================================");
 				try {
 					subOption=Integer.parseInt(scan.nextLine());
 				}catch(NumberFormatException e) {}
@@ -317,7 +346,9 @@ public class Main {
 				case 1:
 					int subOption2 = 0;
 					do{
-						log.info("\nWelcome to the Customer Account Menu"); //MANAGE CUSTOMER ACCOUNTS SUB MENU
+						log.info("\n======================================");
+						log.info("Welcome to the Customer Account Menu");  //EMPLOYEE MANAGE CUSTOMER ACCOUNTS SUB MENU
+						log.info("======================================");
 						log.info("1) Find Customer by ID");
 						log.info("2) Find Customer by Lastname");
 						log.info("3) List All Customer Accounts");
@@ -325,6 +356,7 @@ public class Main {
 						log.info("5) Create NEW Customer Account");
 						log.info("6) Delete Customer Account");
 						log.info("7) Return");
+						log.info("======================================");
 						try {
 							subOption2=Integer.parseInt(scan.nextLine());
 						}catch(NumberFormatException e) {}
@@ -332,51 +364,56 @@ public class Main {
 						switch (subOption2) {
 						case 1:
 							Customer findCustomer = new Customer(); 
-							log.info("Please enter the account ID of the customer you are looking for");
+							log.info("Please enter the account ID of the customer you are looking for"); //FIND CUST BY ID
 							int accountId=Integer.parseInt(scan.nextLine());
 							
 							try {
 								findCustomer=custService.getCustomerAccByid(accountId);
+								log.info("The account matching that ID is displayed below: ");
+								log.info("==============================================================================================================================");
+								log.info(findCustomer);
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
-							
-							log.info("The account matching that ID is displayed below: ");
-							log.info(findCustomer);
-							
+						
 							
 							break;
 						case 2:
-							log.info("\nEnter the last name of the customer you are looking for");  ///SORT THIS
+							log.info("\nEnter the last name of the customer you are looking for");  //FIND CUST BY LAST NAME
 							List<Customer> custList;
 							String lastName = scan.nextLine();
 							try {
-								log.info("Listing all accounts with the last name "+lastName);
+								log.info("Listing all Customer Accounts with the last name "+lastName);
+								log.info("==============================================================================================================================");
 								custList = custService.listCustByLastName(lastName);
 								for(int i=0;i<custList.size();i++) {
 									System.out.println(custList.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
 							
 							
 							break;
-						case 3:
-							List<Customer> custList2;
+						case 3:                                                   //LIST ALL CUSTOMERS 
+							List<Customer> custList2;                            
 							try {
-								log.info("\nListing all customer accounts:");
+								log.info("\nListing all Customer Accounts:");
+								log.info("==============================================================================================================================");
 								custList2 = custService.listAllCustAccounts();
 								for(int i=0;i<custList2.size();i++) {
 									log.info(custList2.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
 
 							break;
 						case 4:
-							Customer getCustomer = new Customer();
+							Customer getCustomer = new Customer();                   //UPDATE CUSTOMER ACCOUNT BY ID
 							log.info("Please provide the account ID of the customer account your would like to update");
 							int accountId2=Integer.parseInt(scan.nextLine());
 							
@@ -386,18 +423,23 @@ public class Main {
 								log.error(e);
 							}
 							
-							log.info("\nThe account matching that ID is displayed below: ");
+							log.info("\nThe account matching that ID is displayed below: ");   //TO CHOOSE WHAT TO UPDATE
+							log.info("==============================================================================================================================");
 							log.info(getCustomer);
+							log.info("==============================================================================================================================");
+							log.info("\n================================");
 							log.info("What would you like to update");
+							log.info("================================");
 							log.info("1) Firstname");
 							log.info("2) Lastname");
 							log.info("3) Address");
 							log.info("4) Number");
 							log.info("5) Email");
 							log.info("6) Password");
+							log.info("================================");
 							int choice=Integer.parseInt(scan.nextLine());
 							
-							log.info("please enter the updated information");
+							log.info("Please enter the updated information");
 							String update = scan.nextLine();
 							
 							try {
@@ -408,17 +450,17 @@ public class Main {
 							
 							try {
 								getCustomer=custService.getCustomerAccByid(accountId2);
+								log.info("The updated Customer Account is displayed below: ");
+								log.info("==============================================================================================================================");
+								log.info(getCustomer);
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
-							log.info("The updated customer account is displayed below: ");
-							log.info(getCustomer);
-							
-							
 
 							break;
-						case 5:
-							log.info("\nCreating a NEW customer account");                               //UNTESTED
+						case 5:                                                             //EMPLOYEE CREATE NEW CUSTOMER ACCOUNT
+							log.info("\nCreating a NEW customer account");                              
 							Customer customer=new Customer();
 							log.info("Enter customer first name");
 							customer.setFirstName(scan.nextLine());
@@ -436,8 +478,10 @@ public class Main {
 							
 							try {
 								if(custService.createNewCustAcc(customer)==1) {
-									log.info("Player registered successfully with below details: ");
+									log.info("Customer Account created successfully with below details: ");
+									log.info("==============================================================================================================================");
 									log.info(customer);
+									log.info("==============================================================================================================================");
 								}
 							} catch (LoginException e) {
 								log.error(e);;
@@ -445,21 +489,37 @@ public class Main {
 
 							break;
 						case 6:
-							Customer deleteCustomer = new Customer();
-							log.info("\nCustomer Account Deletion");
+							log.info("\nCustomer Account Deletion");                     //DELETE CUSTOMER BY ID
 							log.info("Enter the account ID of the Customer");
 							int accountId3 = Integer.parseInt(scan.nextLine());
+							List<Account> accCheck;
+							try {
+								accCheck = accService.listBankAccById(accountId3);
+								if(accCheck.size()!=0) {                                 //CHECK IF ACCOUNT HAS BANK ACCOUNTS 
+									log.warn("Unable to delete Customer Accounts that still have Bank Accounts!"); 
+									break;
+								}
+							} catch (BankException e) {
+								log.error(e);
+							}
+		
+							Customer deleteCustomer = new Customer();
 							try {
 								deleteCustomer=custService.getCustomerAccByid(accountId3);
 							} catch (BankException e) {
 								log.error(e);
 							}
 							if (deleteCustomer.getAccountid() != 0) {
-								log.info("The customer account is displayed below: ");
+								log.info("\nThe customer account is displayed below: ");
+								log.info("==============================================================================================================================");
 								log.info(deleteCustomer);
-								log.info("Are you sure you want to delete this account?"); //////ADD SOME TYPE OF LIST TO CHECK IF CUST HAS ACCOUNTS
+								log.info("==============================================================================================================================");
+								log.info("\n=============================================");
+								log.info("Are you sure you want to delete this account?"); //DELETION CONFIRMATION
+								log.info("=============================================");
 								log.info("1) Delete");
 								log.info("2) Cancel");
+								log.info("=============================================");
 								int confirm = Integer.parseInt(scan.nextLine());
 								if (confirm == 1) {
 									try {
@@ -468,20 +528,19 @@ public class Main {
 										log.error(e);
 										;
 									}
-									log.warn("The account was deleted successfully");
+									log.info("The account was deleted successfully");
 								} else if (confirm == 2) {
-									log.warn("Account deletion was canceled");
+									log.info("Account deletion was canceled");
 								} else {
 									log.warn("Improper selection account deletion was canceled");
 								}
 								;
 							}else {
-								log.warn("An account with that account ID does not exist"); //untested
+								log.warn("An account with that account ID does not exist"); 
 							}
 							break;
-							//ADD FEATURE TO CHECK IF ACCOUNT HAS OPENED BANK ACCOUNTS
 							
-						case 7:// this is exit
+						case 7://EXIT
 
 							break;
 
@@ -495,20 +554,23 @@ public class Main {
 				case 2:
 					int subOption3 = 0;
 					do{
-						log.info("\nWelcome to the Customer BANK Account Menu?"); //MANAGE BANK ACCOUNTS SUB MENU
+						log.info("\n===========================================");
+						log.info("Welcome to the Customer BANK Account Menu"); //EMPLOYEE MANAGE BANK ACCOUNTS SUB MENU
+						log.info("===========================================");
 						log.info("1) Get Bank Accounts by Account Number");
 						log.info("2) List Bank Accounts by ID");
 						log.info("3) List All Bank Accounts");
 						log.info("4) Manage Accounts by status");
 						log.info("5) Delete a bank account");
 						log.info("6) Return");
+						log.info("===========================================");
 						try {
 							subOption3 = Integer.parseInt(scan.nextLine());
 						} catch (NumberFormatException e) {}
 						
 						switch (subOption3) {
-						case 1:
-							log.info("\nPlease enter the account number of the account you are looking for");
+						case 1:                                                          //GET BANK ACC BY ACC NUMBER       
+							log.info("\nPlease enter the account number of the account you are looking for"); 
 							int accountNumber = Integer.parseInt(scan.nextLine());
 							try {
 								log.info(accService.getBankAccByNum(accountNumber));
@@ -516,38 +578,46 @@ public class Main {
 								log.error(e);
 							}
 							break;
-						case 2:
+						case 2:                                                          //LIST BANK ACC BY ID
 							log.info("\nPlease enter the account ID to list accounts with that ID");
 							List<Account> accListid;
 							int accountId = Integer.parseInt(scan.nextLine());
 							try {
+								log.info("\nListing all accounts:");
+								log.info("==============================================================================================================================");
 								accListid = accService.listBankAccById(accountId);
 								for(int i=0;i<accListid.size();i++) {
 									log.info(accListid.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
 							break;
-						case 3:
+						case 3:                                                          //LIST ALL ACCOUNTS
 							List<Account> accList;
 							try {
 								log.info("\nListing all accounts:");
+								log.info("==============================================================================================================================");
 								accList = accService.listAllAccounts();
 								for(int i=0;i<accList.size();i++) {
 									log.info(accList.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
 
 							break;
-						case 4:
+						case 4:                                                           //MANAGE ACCOUNT BY STATUS
 							List<Account> accList2;
-							log.info("\nChoose the account status you are looking for");
+							log.info("\n==============================================");
+							log.info("Choose the account status you are looking for");
+							log.info("==============================================");
 							log.info("1) Open");
 							log.info("2) Closed");
 							log.info("3) Pending");
+							log.info("==============================================");
 							int choice = Integer.parseInt(scan.nextLine());
 							String status = null;
 							if(choice==1) {
@@ -562,63 +632,71 @@ public class Main {
 							if (status != null) {
 								try {
 									log.info("\nListing all accounts:");
+									log.info("==============================================================================================================================");
 									accList2 = accService.listAccountsByStatus(status);
 									for (int i = 0; i < accList2.size(); i++) {
 										log.info(accList2.get(i));
 									}
+									log.info("==============================================================================================================================");
 								} catch (BankException e) {
 									log.error(e);
 								}
 							}
 							
-							log.info("\nEnter the account number of the account you would like to modify");
+							log.info("\nEnter the account number of the account you would like to modify"); //TO CLOSE OR APPROVE ACCOUNTS
 							accountNumber = Integer.parseInt(scan.nextLine());
-							log.info("\nChoose an action below");
+							log.info("\n==========================================================");
+							log.info("Choose an action from the options below");
+							log.info("==========================================================");
 							log.info("1) Close the Account");
 							log.info("2) Approve an Account and provide an Official Bank Number");
+							log.info("3) Cancel");
+							log.info("==========================================================");
 							choice = Integer.parseInt(scan.nextLine());
 							if (choice == 1) {
 								try {
 									accService.updateBankAccountStatus(accountNumber, "Closed");
+									log.info("The account was closed successfully");
 								} catch (BankException e) {
 									log.error(e);
 								}
-								log.info("The account was closed successfully");
 							}else if(choice == 2) {
 								log.info("Enter the official Account Number");
 								int newAccountNumber = Integer.parseInt(scan.nextLine());
 								try {
-									accService.updateBankAccountStatus(accountNumber, "Open");
 									accService.updateBankAccountNumber(accountNumber, newAccountNumber);
+									accService.updateBankAccountStatus(newAccountNumber, "Open");
 								} catch (BankException e) {
 									log.error(e);
 								}
 								log.info("The account was approved and opened successfully");
+							}else if(choice==3){
+								break;
 							}else {
-								log.warn("Please choose only option 1 or option 2");
+								log.warn("Please choose only options 1-3");
 							}
 							
 							break;
-						case 5:
+						case 5:                                                                  //TO DELETE AN ACCOUNT
 							log.info("\nAccount Deletion:");
-							log.info("Enter the account ID of the account that will be DELETED");
-							int accountIdDel = Integer.parseInt(scan.nextLine());
+							log.info("Enter the Account Number of the account that will be DELETED");
+							int accountNumDel = Integer.parseInt(scan.nextLine());
 							
 							int deletion;
 							try {
-								deletion = accService.deleteBankAccount(accountIdDel);
+								deletion = accService.deleteBankAccount(accountNumDel);
 								if (deletion==1) {
 									log.info("The account was deleted successfully");
 								}else {
 									log.warn("The account was not deleted");
-									log.warn("Make sure the account number is correct and the account is CLOSED");
+									log.warn("Make sure the account number is correct and the account is CLOSED"); //MUST BE CLOSED
 								}
 							} catch (BankException e) {
 								log.error(e);
 							}
 							
 							break;
-						case 6://exit
+						case 6://EXIT
 
 							break;
 
@@ -632,52 +710,61 @@ public class Main {
 				case 3:
 					int subOption4 = 0;
 					do{
-						log.info("\nHow will you manage transactions today?"); //SUB MENU TRANSACTIONS SUB MENU
+						log.info("\n==========================================");
+						log.info("How will you manage transactions today?");   //EMPLOYEE TRANSACTIONS SUB MENU
+						log.info("==========================================");
 						log.info("1) List Transactions by Account Number");
 						log.info("2) List Transactions by Account ID");
 						log.info("3) List All Transactions");
 						log.info("4) Return");
+						log.info("==========================================");
 						try {
 							subOption4 = Integer.parseInt(scan.nextLine());
 						} catch (NumberFormatException e) {}
 						
 						switch (subOption4) {
-						case 1:
+						case 1:                                                        //LIST TRANS BY ACC NUMBER
 							List<Transaction> transList0;
 							log.info("Enter the account NUMBER of an account to view its transactions");
 							int accountNumber = Integer.parseInt(scan.nextLine());
 							try {
 								log.info("\nListing transactions from account with account number: "+accountNumber);
+								log.info("==============================================================================================================================");
 								transList0 = tranService.listTransactionByAccNum(accountNumber); 
 								for (int i = 0; i < transList0.size(); i++) {
 									log.info(transList0.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
 							break;
-						case 2:
+						case 2:                                                     //LIST TRANS BY CUSTOMER ACC ID
 							List<Transaction> transList1;
 							log.info("Enter the account ID of the customer to view transactions across all their accounts");
 							int accountId = Integer.parseInt(scan.nextLine());
 							try {
 								log.info("\nListing all transactions from customer with account ID: "+accountId);
+								log.info("==============================================================================================================================");
 								transList1 = tranService.listTransactionById(accountId);
 								for (int i = 0; i < transList1.size(); i++) {
 									log.info(transList1.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}
 							break;
 						case 3:
-							List<Transaction> transList2;
+							List<Transaction> transList2;                           //LIST ALL TRANSACTIONS 
 							try {
 								log.info("\nListing all transactions in the database");
+								log.info("==============================================================================================================================");
 								transList2 = tranService.listAllTransactions();
 								for (int i = 0; i < transList2.size(); i++) {
 									log.info(transList2.get(i));
 								}
+								log.info("==============================================================================================================================");
 							} catch (BankException e) {
 								log.error(e);
 							}

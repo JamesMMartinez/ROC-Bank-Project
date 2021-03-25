@@ -2,8 +2,8 @@ package com.bankapp.customer.model;
 
 public class Customer {
 	
-	private String firstName;
 	private String lastName;
+	private String firstName;
 	private String address;
 	private String number;
 	private String email;
@@ -76,12 +76,14 @@ public class Customer {
 	public void setAccountid(int accountid) {
 		this.accountid = accountid;
 	}
-	
+
+
 	@Override
 	public String toString() {
-		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", address=" + address + ", number="
-				+ number + ", email=" + email + ", password=" + password + ", accountid=" + accountid + "]";
+		return String.format("%-15s\t%-12s\t%-25s\t%-13s\t%-25s\t%-18s\t%3s     ", lastName, firstName, address, number, email, password, "ID: "+accountid);
 	}
+	
+	
 
 	
 }

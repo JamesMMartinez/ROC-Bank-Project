@@ -86,9 +86,7 @@ public class Account {
 
 	@Override
 	public String toString() {
-		return "Account [accountNumber=" + accountNumber + ", accountType=" + accountType + ", status=" + status
-				+ ", balance=" + balance + ", accountId=" + accountId + ", accountDate=" + accountDate + ", ownerName="
-				+ holderName + "]";
+		return String.format("%-9d\t%-8s\t%-8s\t%-20s\t%-10s\t%-10s\t%-30s     ", accountNumber, accountType, status, "Balance: $"+balance, "ID: "+accountId, accountDate, "Holder: "+holderName);
 	}
 
 	

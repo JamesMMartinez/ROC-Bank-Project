@@ -1,4 +1,5 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.bankapp.employee.model.Employee"><rhs name\="com.bankapp.employee.model.Employee"/></lhs><lhs name\="com.bankapp.employee.service.EmployeeService"><rhs name\="com.bankapp.employee.service.impl.EmployeeServiceImpl"/></lhs></history>
+Refactoring.savealleditors=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.bankapp.employee.model.Employee"><rhs name\="com.bankapp.employee.model.Employee"/></lhs><lhs name\="com.bankapp.employee.service.EmployeeService"><rhs name\="com.bankapp.employee.service.impl.EmployeeServiceImpl"/></lhs><lhs name\="com.bankapp.customer.service.impl.CustomerValidations"><rhs name\="com.bankapp.customer.service.impl.CustomerValidations"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0

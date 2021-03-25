@@ -67,8 +67,8 @@ public class Transaction {
 
 	@Override
 	public String toString() {
-		return "Transaction [accountnumber=" + accountnumber + ", type=" + type + ", amount=" + amount + ", dateTime="
-				+ dateTime + "]";
+		return String.format("%-9d\t%-8s\t%-20s\t%-30s     ", accountnumber, type, "Amount: $"+amount, dateTime);	
+
 	}
 
 

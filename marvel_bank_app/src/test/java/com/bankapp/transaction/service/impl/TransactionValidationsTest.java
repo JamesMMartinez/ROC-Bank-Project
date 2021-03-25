@@ -7,18 +7,37 @@ import org.junit.jupiter.api.Test;
 class TransactionValidationsTest {
 
 	@Test
-	void testIsValidAccountNumber() {
-		fail("Not yet implemented");
+	void testIsNotValidAccountNumber() {
+		assertEquals(false, TransactionValidations.isValidAccountNumber(1297913973));
 	}
-
+	
+	@Test
+	void testIsValidAccountNumber() {
+		assertEquals(true, TransactionValidations.isValidAccountNumber(708642008));
+	}
+	
+	@Test
+	void testIsNotValidAccountId() {
+		assertEquals(false, TransactionValidations.isValidAccountId(202));
+	}
+	
 	@Test
 	void testIsValidAccountId() {
-		fail("Not yet implemented");
+		assertEquals(true, TransactionValidations.isValidAccountId(500));
 	}
 
 	@Test
+	void testIsValidAmountZero() {
+		assertEquals(false, TransactionValidations.isValidAmount(0));
+		}
+	
+	@Test
+	void testIsValidAmountNeg() {
+		assertEquals(false, TransactionValidations.isValidAmount(-500));
+		}
+	
+	@Test
 	void testIsValidAmount() {
-		fail("Not yet implemented");
-	}
-
+		assertEquals(true, TransactionValidations.isValidAmount(500));
+		}
 }
